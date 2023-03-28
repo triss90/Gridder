@@ -1,0 +1,198 @@
+@media only screen and (min-width: $small-breakpoint) {
+	.container {
+		width: calc($small-breakpoint - 2rem);
+	}
+
+	/***********************/
+	/**** Small Columns ****/
+	/***********************/
+	.small,
+	.small-1,
+	.small-2,
+	.small-3,
+	.small-4,
+	.small-5,
+	.small-6,
+	.small-7,
+	.small-8,
+	.small-9,
+	.small-10,
+	.small-11,
+	.small-12,
+	.small-offset-1,
+	.small-offset-2,
+	.small-offset-3,
+	.small-offset-4,
+	.small-offset-5,
+	.small-offset-6,
+	.small-offset-7,
+	.small-offset-8,
+	.small-offset-9,
+	.small-offset-10,
+	.small-offset-11,
+	.small-offset-12 {
+		box-sizing: border-box;
+		flex: 0 0 auto;
+		padding-right: $gap;
+		padding-left: $gap;
+	}
+
+	.small {
+		flex-grow: 1;
+		flex-basis: 0;
+		max-width: $column-12;
+	}
+
+	.small-1 {
+		flex-basis: $column-1;
+		max-width: $column-1;
+	}
+
+	.small-2 {
+		flex-basis: $column-2;
+		max-width: $column-2;
+	}
+
+	.small-3 {
+		flex-basis: $column-3;
+		max-width: $column-3;
+	}
+
+	.small-4 {
+		flex-basis: $column-4;
+		max-width: $column-4;
+	}
+
+	.small-5 {
+		flex-basis: $column-5;
+		max-width: $column-5;
+	}
+
+	.small-6 {
+		flex-basis: $column-6;
+		max-width: $column-6;
+	}
+
+	.small-7 {
+		flex-basis: $column-7;
+		max-width: $column-7;
+	}
+
+	.small-8 {
+		flex-basis: $column-8;
+		max-width: $column-8;
+	}
+
+	.small-9 {
+		flex-basis: $column-9;
+		max-width: $column-9;
+	}
+
+	.small-10 {
+		flex-basis: $column-10;
+		max-width: $column-10;
+	}
+
+	.small-11 {
+		flex-basis: $column-11;
+		max-width: $column-11;
+	}
+
+	.small-12 {
+		flex-basis: $column-12;
+		max-width: $column-12;
+	}
+
+	/***********************/
+	/**** Small Offsets ****/
+	/***********************/
+	.small-offset-1 {
+		margin-left: $column-1;
+	}
+
+	.small-offset-2 {
+		margin-left: $column-2;
+	}
+
+	.small-offset-3 {
+		margin-left: $column-3;
+	}
+
+	.small-offset-4 {
+		margin-left: $column-4;
+	}
+
+	.small-offset-5 {
+		margin-left: $column-5;
+	}
+
+	.small-offset-6 {
+		margin-left: $column-6;
+	}
+
+	.small-offset-7 {
+		margin-left: $column-7;
+	}
+
+	.small-offset-8 {
+		margin-left: $column-8;
+	}
+
+	.small-offset-9 {
+		margin-left: $column-9;
+	}
+
+	.small-offset-10 {
+		margin-left: $column-10;
+	}
+
+	.small-offset-11 {
+		margin-left: $column-11;
+	}
+
+	/***************************/
+	/**** Small Orientation ****/
+	/***************************/
+	.small-start {
+		justify-content: flex-start;
+		text-align: start;
+	}
+
+	.small-center {
+		justify-content: center;
+		text-align: center;
+	}
+
+	.small-end {
+		justify-content: flex-end;
+		text-align: end;
+	}
+
+	.small-top {
+		align-items: flex-start;
+	}
+
+	.small-middle {
+		align-items: center;
+	}
+
+	.small-bottom {
+		align-items: flex-end;
+	}
+
+	.small-around {
+		justify-content: space-around;
+	}
+
+	.small-between {
+		justify-content: space-between;
+	}
+
+	.small-first {
+		order: -1;
+	}
+
+	.small-last {
+		order: 1;
+	}
+}

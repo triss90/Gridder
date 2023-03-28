@@ -1,0 +1,198 @@
+@media only screen and (min-width: $large-breakpoint) {
+	.container {
+		width: calc($large-breakpoint - 2rem);
+	}
+
+	/************************/
+	/**** Large Columns ****/
+	/************************/
+	.large,
+	.large-1,
+	.large-2,
+	.large-3,
+	.large-4,
+	.large-5,
+	.large-6,
+	.large-7,
+	.large-8,
+	.large-9,
+	.large-10,
+	.large-11,
+	.large-12,
+	.large-offset-1,
+	.large-offset-2,
+	.large-offset-3,
+	.large-offset-4,
+	.large-offset-5,
+	.large-offset-6,
+	.large-offset-7,
+	.large-offset-8,
+	.large-offset-9,
+	.large-offset-10,
+	.large-offset-11,
+	.large-offset-12 {
+		box-sizing: border-box;
+		flex: 0 0 auto;
+		padding-right: $gap;
+		padding-left: $gap;
+	}
+
+	.large {
+		flex-grow: 1;
+		flex-basis: 0;
+		max-width: $column-12;
+	}
+
+	.large-1 {
+		flex-basis: $column-1;
+		max-width: $column-1;
+	}
+
+	.large-2 {
+		flex-basis: $column-2;
+		max-width: $column-2;
+	}
+
+	.large-3 {
+		flex-basis: $column-3;
+		max-width: $column-3;
+	}
+
+	.large-4 {
+		flex-basis: $column-4;
+		max-width: $column-4;
+	}
+
+	.large-5 {
+		flex-basis: $column-5;
+		max-width: $column-5;
+	}
+
+	.large-6 {
+		flex-basis: $column-6;
+		max-width: $column-6;
+	}
+
+	.large-7 {
+		flex-basis: $column-7;
+		max-width: $column-7;
+	}
+
+	.large-8 {
+		flex-basis: $column-8;
+		max-width: $column-8;
+	}
+
+	.large-9 {
+		flex-basis: $column-9;
+		max-width: $column-9;
+	}
+
+	.large-10 {
+		flex-basis: $column-10;
+		max-width: $column-10;
+	}
+
+	.large-11 {
+		flex-basis: $column-11;
+		max-width: $column-11;
+	}
+
+	.large-12 {
+		flex-basis: $column-12;
+		max-width: $column-12;
+	}
+
+	/************************/
+	/**** Large Offsets ****/
+	/************************/
+	.large-offset-1 {
+		margin-left: $column-1;
+	}
+
+	.large-offset-2 {
+		margin-left: $column-2;
+	}
+
+	.large-offset-3 {
+		margin-left: $column-3;
+	}
+
+	.large-offset-4 {
+		margin-left: $column-4;
+	}
+
+	.large-offset-5 {
+		margin-left: $column-5;
+	}
+
+	.large-offset-6 {
+		margin-left: $column-6;
+	}
+
+	.large-offset-7 {
+		margin-left: $column-7;
+	}
+
+	.large-offset-8 {
+		margin-left: $column-8;
+	}
+
+	.large-offset-9 {
+		margin-left: $column-9;
+	}
+
+	.large-offset-10 {
+		margin-left: $column-10;
+	}
+
+	.large-offset-11 {
+		margin-left: $column-11;
+	}
+
+	/****************************/
+	/**** Large Orientation ****/
+	/****************************/
+	.large-start {
+		justify-content: flex-start;
+		text-align: start;
+	}
+
+	.large-center {
+		justify-content: center;
+		text-align: center;
+	}
+
+	.large-end {
+		justify-content: flex-end;
+		text-align: end;
+	}
+
+	.large-top {
+		align-items: flex-start;
+	}
+
+	.large-middle {
+		align-items: center;
+	}
+
+	.large-bottom {
+		align-items: flex-end;
+	}
+
+	.large-around {
+		justify-content: space-around;
+	}
+
+	.large-between {
+		justify-content: space-between;
+	}
+
+	.large-first {
+		order: -1;
+	}
+
+	.large-last {
+		order: 1;
+	}
+}

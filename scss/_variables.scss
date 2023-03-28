@@ -1,0 +1,29 @@
+/*********************/
+/**** Breakpoints ****/
+/*********************/
+$tiny-breakpoint: 0;
+$small-breakpoint: 48em;
+$medium-breakpoint: 64em;
+$large-breakpoint: 75em;
+$huge-breakpoint: 125em;
+
+/**************/
+/**** Gaps ****/
+/**************/
+$gap: 0.5rem;
+
+/*****************/
+/**** Columns ****/
+/*****************/
+$column-1: calc(100% / 12);
+$column-2: calc(100% / 6);
+$column-3: calc(100% / 4);
+$column-4: calc(100% / 3);
+$column-5: calc(100% / 2.4);
+$column-6: calc(100% / 2);
+$column-7: calc(100% / 1.7142857143);
+$column-8: calc(100% / 1.5);
+$column-9: calc(100% / 1.3333333333);
+$column-10: calc(100% / 1.2);
+$column-11: calc(100% / 1.2);
+$column-12: 100%;

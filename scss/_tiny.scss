@@ -1,0 +1,192 @@
+/**********************/
+/**** Tiny Columns ****/
+/**********************/
+.tiny,
+.tiny-1,
+.tiny-2,
+.tiny-3,
+.tiny-4,
+.tiny-5,
+.tiny-6,
+.tiny-7,
+.tiny-8,
+.tiny-9,
+.tiny-10,
+.tiny-11,
+.tiny-12,
+.tiny-offset-1,
+.tiny-offset-2,
+.tiny-offset-3,
+.tiny-offset-4,
+.tiny-offset-5,
+.tiny-offset-6,
+.tiny-offset-7,
+.tiny-offset-8,
+.tiny-offset-9,
+.tiny-offset-10,
+.tiny-offset-11,
+.tiny-offset-12 {
+	box-sizing: border-box;
+	flex: 0 0 auto;
+	padding-right: $gap;
+	padding-left: $gap;
+}
+
+.tiny {
+	flex-grow: 1;
+	flex-basis: 0;
+	max-width: $column-12;
+}
+
+.tiny-1 {
+	flex-basis: $column-1;
+	max-width: $column-1;
+}
+
+.tiny-2 {
+	flex-basis: $column-2;
+	max-width: $column-2;
+}
+
+.tiny-3 {
+	flex-basis: $column-3;
+	max-width: $column-3;
+}
+
+.tiny-4 {
+	flex-basis: $column-4;
+	max-width: $column-4;
+}
+
+.tiny-5 {
+	flex-basis: $column-5;
+	max-width: $column-5;
+}
+
+.tiny-6 {
+	flex-basis: $column-6;
+	max-width: $column-6;
+}
+
+.tiny-7 {
+	flex-basis: $column-7;
+	max-width: $column-7;
+}
+
+.tiny-8 {
+	flex-basis: $column-8;
+	max-width: $column-8;
+}
+
+.tiny-9 {
+	flex-basis: $column-9;
+	max-width: $column-9;
+}
+
+.tiny-10 {
+	flex-basis: $column-10;
+	max-width: $column-10;
+}
+
+.tiny-11 {
+	flex-basis: $column-11;
+	max-width: $column-11;
+}
+
+.tiny-12 {
+	flex-basis: $column-12;
+	max-width: $column-12;
+}
+
+/**********************/
+/**** Tiny Offsets ****/
+/**********************/
+.tiny-offset-1 {
+	margin-left: $column-1;
+}
+
+.tiny-offset-2 {
+	margin-left: $column-2;
+}
+
+.tiny-offset-3 {
+	margin-left: $column-3;
+}
+
+.tiny-offset-4 {
+	margin-left: $column-4;
+}
+
+.tiny-offset-5 {
+	margin-left: $column-5;
+}
+
+.tiny-offset-6 {
+	margin-left: $column-6;
+}
+
+.tiny-offset-7 {
+	margin-left: $column-7;
+}
+
+.tiny-offset-8 {
+	margin-left: $column-8;
+}
+
+.tiny-offset-9 {
+	margin-left: $column-9;
+}
+
+.tiny-offset-10 {
+	margin-left: $column-10;
+}
+
+.tiny-offset-11 {
+	margin-left: $column-11;
+}
+
+/**************************/
+/**** Tiny Orientation ****/
+/**************************/
+.tiny-start {
+	justify-content: flex-start;
+	text-align: start;
+}
+
+.tiny-center {
+	justify-content: center;
+	text-align: center;
+}
+
+.tiny-end {
+	justify-content: flex-end;
+	text-align: end;
+}
+
+.tiny-top {
+	align-items: flex-start;
+}
+
+.tiny-middle {
+	align-items: center;
+}
+
+.tiny-bottom {
+	align-items: flex-end;
+}
+
+.tiny-around {
+	justify-content: space-around;
+}
+
+.tiny-between {
+	justify-content: space-between;
+}
+
+.tiny-first {
+	order: -1;
+}
+
+.tiny-last {
+	order: 1;
+}
