@@ -1,0 +1,198 @@
+@media only screen and (min-width: $huge-breakpoint) {
+	.container {
+		width: calc($huge-breakpoint - 2rem);
+	}
+
+	/************************/
+	/**** Huge Columns ****/
+	/************************/
+	.huge,
+	.huge-1,
+	.huge-2,
+	.huge-3,
+	.huge-4,
+	.huge-5,
+	.huge-6,
+	.huge-7,
+	.huge-8,
+	.huge-9,
+	.huge-10,
+	.huge-11,
+	.huge-12,
+	.huge-offset-1,
+	.huge-offset-2,
+	.huge-offset-3,
+	.huge-offset-4,
+	.huge-offset-5,
+	.huge-offset-6,
+	.huge-offset-7,
+	.huge-offset-8,
+	.huge-offset-9,
+	.huge-offset-10,
+	.huge-offset-11,
+	.huge-offset-12 {
+		box-sizing: border-box;
+		flex: 0 0 auto;
+		padding-right: $gap;
+		padding-left: $gap;
+	}
+
+	.huge {
+		flex-grow: 1;
+		flex-basis: 0;
+		max-width: $column-12;
+	}
+
+	.huge-1 {
+		flex-basis: $column-1;
+		max-width: $column-1;
+	}
+
+	.huge-2 {
+		flex-basis: $column-2;
+		max-width: $column-2;
+	}
+
+	.huge-3 {
+		flex-basis: $column-3;
+		max-width: $column-3;
+	}
+
+	.huge-4 {
+		flex-basis: $column-4;
+		max-width: $column-4;
+	}
+
+	.huge-5 {
+		flex-basis: $column-5;
+		max-width: $column-5;
+	}
+
+	.huge-6 {
+		flex-basis: $column-6;
+		max-width: $column-6;
+	}
+
+	.huge-7 {
+		flex-basis: $column-7;
+		max-width: $column-7;
+	}
+
+	.huge-8 {
+		flex-basis: $column-8;
+		max-width: $column-8;
+	}
+
+	.huge-9 {
+		flex-basis: $column-9;
+		max-width: $column-9;
+	}
+
+	.huge-10 {
+		flex-basis: $column-10;
+		max-width: $column-10;
+	}
+
+	.huge-11 {
+		flex-basis: $column-11;
+		max-width: $column-11;
+	}
+
+	.huge-12 {
+		flex-basis: $column-12;
+		max-width: $column-12;
+	}
+
+	/************************/
+	/**** Huge Offsets ****/
+	/************************/
+	.huge-offset-1 {
+		margin-left: $column-1;
+	}
+
+	.huge-offset-2 {
+		margin-left: $column-2;
+	}
+
+	.huge-offset-3 {
+		margin-left: $column-3;
+	}
+
+	.huge-offset-4 {
+		margin-left: $column-4;
+	}
+
+	.huge-offset-5 {
+		margin-left: $column-5;
+	}
+
+	.huge-offset-6 {
+		margin-left: $column-6;
+	}
+
+	.huge-offset-7 {
+		margin-left: $column-7;
+	}
+
+	.huge-offset-8 {
+		margin-left: $column-8;
+	}
+
+	.huge-offset-9 {
+		margin-left: $column-9;
+	}
+
+	.huge-offset-10 {
+		margin-left: $column-10;
+	}
+
+	.huge-offset-11 {
+		margin-left: $column-11;
+	}
+
+	/****************************/
+	/**** Huge Orientation ****/
+	/****************************/
+	.huge-start {
+		justify-content: flex-start;
+		text-align: start;
+	}
+
+	.huge-center {
+		justify-content: center;
+		text-align: center;
+	}
+
+	.huge-end {
+		justify-content: flex-end;
+		text-align: end;
+	}
+
+	.huge-top {
+		align-items: flex-start;
+	}
+
+	.huge-middle {
+		align-items: center;
+	}
+
+	.huge-bottom {
+		align-items: flex-end;
+	}
+
+	.huge-around {
+		justify-content: space-around;
+	}
+
+	.huge-between {
+		justify-content: space-between;
+	}
+
+	.huge-first {
+		order: -1;
+	}
+
+	.huge-last {
+		order: 1;
+	}
+}
