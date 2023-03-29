@@ -1,0 +1,53 @@
+.button {
+  display: inline-block;
+  background: var(--color-1);
+  color: var(--color-3);
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: opacity 175ms ease;
+  &:hover {
+    background: var(--color-1);
+    color: var(--color-3);
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  svg {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    top: 2px;
+  }
+  &.info {
+    background-color: var(--color-4);
+    color: var(--color-4-1);
+    &:hover {
+      background: var(--color-4);
+      color: var(--color-4-1);
+    }
+  }
+  &.success {
+    background-color: var(--color-5);
+    color: var(--color-5-1);
+    &:hover {
+      background: var(--color-5);
+      color: var(--color-5-1);
+    }
+  }
+  &.warning {
+    background-color: var(--color-6);
+    color: var(--color-6-1);
+    &:hover {
+      background: var(--color-6);
+      color: var(--color-6-1);
+    }
+  }
+  &.error {
+    background-color: var(--color-7);
+    color: var(--color-7-1);
+    &:hover {
+      background: var(--color-7);
+      color: var(--color-7-1);
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.breadcrumbs {
+  .crumb {
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: darken($color4,30%);
+    border: 0;
+    @media(max-width: 64em) {
+      font-size: 0.65rem;
+    }
+    &:hover {
+      color: $color2;
+      background: none;
+      &:after {
+
+      }
+    }
+    &:after {
+      content: "/";
+      padding: 0 .8rem;
+      @media(max-width: 64em) {
+        padding: 0 .3rem;
+      }
+      color: darken($color4,30%);
+    }
+    &:last-child {
+      color: $color5;
+      font-weight: 700;
+      pointer-events: none;
+      &:after {
+        content: "";
+      }
+    }
+  }
+}

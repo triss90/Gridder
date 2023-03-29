@@ -1,0 +1,10 @@
+.header {
+  padding: 4rem 0 5rem 0;
+  margin-bottom: 4rem;
+  background: var(--color-3);
+  color: var(--color-1);
+  &.big {
+    padding: 9rem 0 10rem 0;
+    margin-bottom: 8rem;
+  }
+}

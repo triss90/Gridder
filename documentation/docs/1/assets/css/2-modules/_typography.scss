@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: $color5;
+}
+
+body {
+  font-size: 1em;
+  line-height: 1.45;
+  @media (min-width: 43.75em) {
+    font-size: 1em;
+    line-height: 1.675;
+  }
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25;
+  @media (min-width: 43.75em) {
+    font-size: 2.5em;
+    line-height: 1.125;
+  }
+  @media (min-width: 56.25em) {
+    font-size: 3em;
+    line-height: 1.05;
+  }
+}
+
+h2 {
+  font-size: 1.625em;
+  line-height: 1.15384615;
+  @media (min-width: 43.75em) {
+    font-size: 2em;
+    line-height: 1.25;
+  }
+  @media (min-width: 56.25em) {
+    font-size: 2.25em;
+    line-height: 1.25;
+  }
+}
+
+h3 {
+  font-size: 1.375em;
+  line-height: 1.13636364;
+  @media (min-width: 43.75em) {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+  @media (min-width: 56.25em) {
+    font-size: 1.75em;
+    line-height: 1.25;
+  }
+}
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.11111111;
+  @media (min-width: 43.75em) {
+    line-height: 1.22222222;
+  }
+}
+
+blockquote {
+  font-size: 1.25em;
+  line-height: 1.25;
+  @media (min-width: 43.75em) {
+    font-size: 1.5em;
+    line-height: 1.45833333;
+  }
+}
+
+a {
+  color: $color5;
+  text-decoration: none;
+  border-bottom: 2px solid $color2;
+  transition: all 150ms ease;
+  &:hover {
+    // color: darken($color2, 10%);
+    background: $color2;
+    color: $color4;
+  }
+}

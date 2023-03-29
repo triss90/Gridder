@@ -1,0 +1,10 @@
+.demo-box {
+  background-color: var(--color-1);
+  padding: calc($default-space / 2);
+  border-radius: calc($default-space / 2);
+  margin-bottom: $default-space;
+  text-align: center;
+  color: var(--color-2);
+  text-transform: uppercase;
+  font-size: 75%;
+}
