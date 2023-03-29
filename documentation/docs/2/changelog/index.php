@@ -2,7 +2,7 @@
 
 <?php include('../../../_inc/header.php'); ?>
 
-<body id="documentation">
+<body id="changelog">
 
     <?php include('../../../_inc/navigation.php'); ?>
 
@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="tiny">
                     <h1>Gridder <?php echo $latestBuild; ?> Changelog</h1>
-                    <h3>adadadadadada</h3>
+                    <h3>Keep up with the latest changes to Gridder. Download the latest version <a href="/documentation/">here</a>.</h3>
                 </div>
             </div>
         </div>

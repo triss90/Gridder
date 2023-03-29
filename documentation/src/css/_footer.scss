@@ -1,3 +1,21 @@
 footer {
-  padding: 5rem 0;
+  background-color: var(--color-3);
+  color: var(--color-1);
+  margin-top: 5rem;
+  padding: 3rem 0;
+  svg {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    top: 2px;
+  }
+  a {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--color-1);
+  }
+  p {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
 }

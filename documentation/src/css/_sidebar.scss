@@ -1,3 +1,49 @@
 nav#sidebar {
   display: block;
+  position: relative;
+  &.sticky {
+    position: fixed;
+    top: 0px;
+  }
+  @media (max-height: 800px) {
+    max-height: calc(100vh - 275px);
+    overflow-y: scroll;
+  }
+  .scroll-wrapper {
+    background-color: var(--color-0);
+    display: none;
+    position: sticky;
+    bottom: 0px;
+    @media (max-height: 800px) {
+      display: block;
+      padding-bottom: 0.7rem;
+    }
+    .scroll {
+      text-align: center;
+      color: var(--color-3);
+      animation: down 1.5s infinite;
+    }
+  }
+
+  a {
+    display: block;
+    margin: 0.35rem 0;
+  }
+  h3 {
+    margin-top: 1.4em;
+    margin-bottom: 0.5rem;
+    color: var(--color-3);
+  }
+}
+
+@keyframes down {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(0.7rem);
+  }
+  40% {
+    transform: translate(0);
+  }
 }

@@ -12,8 +12,7 @@
                 <div class="tiny">
                     <h1>Gridder: Flexbox Grid System</h1>
                     <h3>Gridder's fluid grid and breakpoints enable endless combinations of column sizes, offsets, allignments and viewport widths.</h3>
-                    <hr>
-                    <h2 id="download">Download</h2>
+                    <br>
                     <a class="button info" href="https://github.com/triss90/Gridder/archive/refs/tags/<?php echo $latestBuild; ?>.zip" target="_blank" rel="nofollow" download>
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -62,7 +61,10 @@
   &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 
-                    <small>Remember to add <code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</code> to the head aswell, to make sure the site scales correctly</small>
+                    <p>Remember to add <code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</code> to the head aswell, to make sure the site scales correctly.</p>
+
+                    <p>The latest build of Gridder is also available on <strong>jsdelivr</strong>:</p>
+                    <pre><code class="language-html">https://cdn.jsdelivr.net/gh/triss90/Gridder/dist/css/gridder.css</code></pre>
 
                 </div>
             </div>

@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="tiny">
                     <h1>Gridder <?php echo $latestBuild; ?> Documentation</h1>
-                    <h3>Gridder's fluid grid and breakpoints enable endless combinations of column sizes, offsets, allignments and viewport widths.</h3>
+                    <h3>Learn all the ins and outs of the Gridder framework. Looking for 1.0 documentation? You can find it <a href="/documentation/docs/1/">here</a>.</h3>
                 </div>
             </div>
         </div>
@@ -23,10 +23,32 @@
 
             <div class="tiny-2">
                 <nav id="sidebar">
+                    <h3>Basic Grid</h3>
                     <a href="#the-grid">The Grid</a>
                     <a href="#breakpoints">Breakpoints</a>
                     <a href="#auto-grid">Auto Grid</a>
+                    <a href="#nesting">Nesting</a>
+                    <a href="#nesting"><strike>Masonrty</strike></a>
+                    <h3>Alignment</h3>
+                    <a href="#offsets">Offsets</a>
+                    <a href="#start">Start</a>
+                    <a href="#center">Center</a>
+                    <a href="#end">End</a>
+                    <a href="#top">Top</a>
+                    <a href="#middle">Middle</a>
+                    <a href="#down">Down</a>
+                    <h3>Distribution</h3>
+                    <a href="#between">Between</a>
+                    <a href="#around">Around</a>
+                    <h3>Reordering</h3>
+                    <a href="#reverse">Reverse</a>
+                    <a href="#first">First</a>
+                    <a href="#last">Last</a>
+                    <div class="scroll-wrapper">
+                        <div class="scroll">&#8595;</div>
+                    </div>
                 </nav>
+                
             </div>
 
             <div class="tiny-10">

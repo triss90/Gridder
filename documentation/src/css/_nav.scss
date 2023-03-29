@@ -22,3 +22,9 @@ nav#navigation {
     }
   }
 }
+
+#home nav#navigation a.home,
+#documentation nav#navigation a.documentation,
+#changelog nav#navigation a.changelog {
+  color: var(--color-4-1);
+}
