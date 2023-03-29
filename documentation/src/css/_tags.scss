@@ -6,6 +6,9 @@
   font-weight: bold;
   padding: 0.15rem 0.3rem;
   border-radius: 0.25rem;
+  line-height: 1;
+  position: relative;
+  top: -1px;
   &.info {
     background-color: var(--color-4);
     color: var(--color-4-1);
@@ -21,5 +24,23 @@
   &.error {
     background-color: var(--color-7);
     color: var(--color-7-1);
+  }
+  @media (prefers-color-scheme: dark) {
+    &.info {
+      background-color: var(--color-4-1);
+      color: var(--color-4);
+    }
+    &.success {
+      background-color: var(--color-5-1);
+      color: var(--color-5);
+    }
+    &.warning {
+      background-color: var(--color-6-1);
+      color: var(--color-6);
+    }
+    &.error {
+      background-color: var(--color-7-1);
+      color: var(--color-7);
+    }
   }
 }
