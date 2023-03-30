@@ -19,7 +19,7 @@
     <link rel="manifest" href="/documentation/dist/images/site.webmanifest">
     <link rel="mask-icon" href="/documentation/dist/images/safari-pinned-tab.svg" color="#1e64ff">
     <link rel="shortcut icon" href="/documentation/dist/images/favicon.ico">
-    <meta name="msapplication-TileColor" content="#ff0000">
+    <meta name="msapplication-TileColor" content="#1e64ff">
     <meta name="msapplication-config" content="/documentation/dist/images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 </head>
