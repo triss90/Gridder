@@ -3,9 +3,11 @@ $default-space: 1rem;
 /* Base color scheme (fallback) */
 :root {
   --color-0: #fff;
+  --color-0-1: #19191a;
   --color-1: #eee;
   --color-2: #5a5a5a;
   --color-3: #2a2a2a;
+  --color-3-1: #19191a;
 
   --color-4: #dce8ff;
   --color-4-1: #1e64ff;
@@ -21,9 +23,11 @@ $default-space: 1rem;
 @media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
   :root {
     --color-0: #fff;
+    --color-0-1: #19191a;
     --color-1: #eee;
     --color-2: #5a5a5a;
     --color-3: #2a2a2a;
+    --color-3-1: #19191a;
 
     --color-4: #dce8ff;
     --color-4-1: #1e64ff;
@@ -40,9 +44,11 @@ $default-space: 1rem;
 @media (prefers-color-scheme: dark) {
   :root {
     --color-0: #19191a;
+    --color-0-1: #fff;
     --color-1: #282c34;
     --color-2: #eee;
     --color-3: #fff;
+    --color-3-1: #eee;
 
     --color-4: #dce8ff;
     --color-4-1: #1e64ff;

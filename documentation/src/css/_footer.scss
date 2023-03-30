@@ -1,5 +1,13 @@
 footer {
   background-color: var(--color-3);
+  background-image: linear-gradient(var(--color-3-1) 2px, transparent 2px),
+    linear-gradient(90deg, var(--color-3-1) 2px, transparent 2px),
+    linear-gradient(var(--color-3-1) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-3-1) 1px, var(--color-3) 1px);
+  background-size: calc(35px * 4) calc(35px * 4), calc(35px * 4) calc(35px * 4),
+    35px 35px, 35px 35px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+
   color: var(--color-1);
   margin-top: 5rem;
   padding: 3rem 0;
