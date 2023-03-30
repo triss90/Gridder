@@ -44,9 +44,6 @@
                     <a href="#reverse">Reverse</a>
                     <a href="#first">First</a>
                     <a href="#last">Last</a>
-                    <div class="scroll-wrapper">
-                        <div class="scroll">&#8595;</div>
-                    </div>
                 </nav>
                 
             </div>

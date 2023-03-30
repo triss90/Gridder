@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer">
     <div class="container">
         <div class="row tiny-middle">
             <div class="tiny-12 small-4 tiny-center small-first small-start">
