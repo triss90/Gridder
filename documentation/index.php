@@ -38,8 +38,8 @@
 
         <section id="grid">
 
-            <div class="row tiny-center">
-                <div class="tiny-12 tiny-start">
+            <div class="row">
+                <div class="tiny-12">
                     <div class="notification info">
                         <h3>Gridder <?php echo $latestBuild; ?> 🥳</h3>
                         <p>
@@ -49,6 +49,7 @@
                     </div>
                 </div>
             </div>
+            <br>
             <!-- Installation -->
             <div class="row">
                 <div class="tiny">
@@ -75,7 +76,7 @@
 
                     <p>Remember to add <code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</code> to the head aswell, to make sure the site scales correctly.</p>
 
-                    <p>The latest build of Gridder is also available on <strong>jsdelivr</strong>:</p>
+                    <p>The latest build(<?php echo $latestBuild; ?>) of Gridder is also available on <strong>jsdelivr</strong>:</p>
                     <pre><code class="language-html">https://cdn.jsdelivr.net/gh/triss90/Gridder/dist/css/gridder.css</code></pre>
 
                 </div>
