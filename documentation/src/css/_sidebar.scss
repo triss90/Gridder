@@ -13,6 +13,9 @@ nav#sidebar {
   a {
     display: block;
     margin: 0.35rem 0;
+    &.highlight {
+      font-weight: bold;
+    }
   }
   h3 {
     margin-top: 1.4em;
