@@ -38,9 +38,21 @@
 
         <section id="grid">
 
+            <div class="row tiny-center">
+                <div class="tiny-12 tiny-start">
+                    <div class="notification info">
+                        <h3>Gridder <?php echo $latestBuild; ?> 🥳</h3>
+                        <p>
+                            The new Gridder <?php echo $latestBuild; ?> is live!
+                            Looking for documentation for Gridder v1.5.1? click <a href="/documentation/docs/1/">here</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
             <!-- Installation -->
             <div class="row">
                 <div class="tiny">
+                    
                     <h2 id="installation">Get Started</h2>
                     <p>Simply <a href="#home">download</a> Gridder and add it to your website's head, like this:</p>
                     <pre>

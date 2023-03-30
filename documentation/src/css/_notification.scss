@@ -1,0 +1,40 @@
+.notification {
+  //   background-image: linear-gradient(to right, var(--color-0), var(--color-4));
+  background: var(--color-1);
+  border: 1px solid var(--color-3);
+  border-radius: 5px;
+  padding: 1rem;
+  position: relative;
+  &.info {
+    background-color: var(--color-4);
+    border-color: var(--color-4-1);
+    &:hover {
+      background: var(--color-4);
+      border-color: var(--color-4-1);
+    }
+  }
+  &.success {
+    background-color: var(--color-5);
+    border-color: var(--color-5-1);
+    &:hover {
+      background: var(--color-5);
+      border-color: var(--color-5-1);
+    }
+  }
+  &.warning {
+    background-color: var(--color-6);
+    border-color: var(--color-6-1);
+    &:hover {
+      background: var(--color-6);
+      border-color: var(--color-6-1);
+    }
+  }
+  &.error {
+    background-color: var(--color-7);
+    border-color: var(--color-7-1);
+    &:hover {
+      background: var(--color-7);
+      border-color: var(--color-7-1);
+    }
+  }
+}
