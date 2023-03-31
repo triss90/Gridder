@@ -11,7 +11,8 @@
             <div class="row">
                 <div class="tiny">
                     <h1>Gridder <?php echo $latestBuild; ?> Documentation</h1>
-                    <h3>Learn all the ins and outs of the Gridder framework. Looking for 1.0 documentationclass="" ? You can find it <a href="/documentation/docs/1/">here</a>.</h3>
+                    <h3>Learn all the ins and outs of the Gridder framework.</h3>
+                    <p>Looking for Gridder v1.5.1 documentation? You can find it <a href="/documentation/docs/1/">here</a>.</p>
                 </div>
             </div>
         </div>

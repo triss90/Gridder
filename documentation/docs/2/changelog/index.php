@@ -11,7 +11,8 @@
             <div class="row">
                 <div class="tiny">
                     <h1>Gridder <?php echo $latestBuild; ?> Changelog</h1>
-                    <h3>Keep up with the latest changes to Gridder. Download the latest version <a href="/documentation/">here</a>.</h3>
+                    <h3>Keep up with the latest changes to Gridder.</h3>
+                    <p>Download the latest version <a href="/documentation/">here</a>.</p>
                 </div>
             </div>
         </div>
