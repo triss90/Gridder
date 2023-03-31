@@ -13,8 +13,15 @@ nav#sidebar {
   a {
     display: block;
     margin: 0.35rem 0;
-    &.highlight {
-      font-weight: bold;
+    transition: all 150ms ease;
+    &.active {
+      margin-left: 1rem;
+      position: relative;
+      &:before {
+        content: ">";
+        position: absolute;
+        left: -1rem;
+      }
     }
   }
   h3 {
@@ -34,4 +41,8 @@ nav#sidebar {
   40% {
     transform: translate(0);
   }
+}
+
+.docs-section {
+  min-height: 75vh;
 }
