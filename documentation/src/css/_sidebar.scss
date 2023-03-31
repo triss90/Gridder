@@ -17,8 +17,9 @@ nav#sidebar {
     &.active {
       margin-left: 1rem;
       position: relative;
+      font-weight: bold;
       &:before {
-        content: ">";
+        content: "\00BB";
         position: absolute;
         left: -1rem;
       }
