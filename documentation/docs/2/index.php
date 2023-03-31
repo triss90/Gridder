@@ -159,6 +159,11 @@
                                         <div class="demo-box">one</div>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="tiny-12">
+                                        <div class="demo-box">twelve</div>
+                                    </div>
+                                </div>
                             </span>
                         </section>
                     </div>
