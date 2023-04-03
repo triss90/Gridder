@@ -60,22 +60,28 @@
                     <h2 id="installation">Get Started</h2>
                     <p>Simply <a href="#home">download</a> Gridder and add it to your website's head, like this:</p>
                     <pre>
-                        <code class="language-html">&lt;!--index.html--&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-    &lt;link href=&quot;path/to/gridder.css&quot; rel=&quot;stylesheet&quot;&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;div class=&quot;container&quot;&gt;
-        &lt;div class=&quot;row&quot;&gt;
-            &lt;div class=&quot;tiny-2&quot;&gt;My&lt;/div&gt;
-            &lt;div class=&quot;tiny-4&quot;&gt;Grid&lt;/div&gt;
-            &lt;div class=&quot;tiny-6&quot;&gt;System&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+                        <code class="language-html">
+                            &lt;!--index.html--&gt;
+                            &lt;html&gt;
+
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;link href=&quot;path/to/gridder.css&quot; rel=&quot;stylesheet&quot;&gt;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;
+
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;container&quot;&gt;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;row&quot;&gt;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-2&quot;&gt;My&lt;/div&gt;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-4&quot;&gt;Grid&lt;/div&gt;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-6&quot;&gt;System&lt;/div&gt;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;
+
+                            &lt;/html&gt;
+                        </code>
+                    </pre>
 
                     <p>Remember to add <code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</code> to the head aswell, to make sure the site scales correctly.</p>
 

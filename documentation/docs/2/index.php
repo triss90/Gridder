@@ -70,101 +70,99 @@
                                 The syntax is simple and it makes coding responsive designs much easier. 
                                 Go ahead, resize the browser.
                             </p>
-                            <span class="demo">
-                                <div class="row">
-                                    <div class="tiny-12 small-1">
-                                        <div class="demo-box">one</div>
-                                    </div>
-                                    <div class="tiny-12 small-11">
-                                        <div class="demo-box">eleven</div>
-                                    </div>
+                            <div class="row">
+                                <div class="tiny-12 small-1">
+                                    <div class="demo-box">one</div>
                                 </div>
-                                <div class="row">
-                                    <div class="tiny-12 small-2">
-                                        <div class="demo-box">two</div>
-                                    </div>
-                                    <div class="tiny-12 small-10">
-                                        <div class="demo-box">ten</div>
-                                    </div>
+                                <div class="tiny-12 small-11">
+                                    <div class="demo-box">eleven</div>
                                 </div>
-                                <div class="row">
-                                    <div class="tiny-12 small-3">
-                                        <div class="demo-box">three</div>
-                                    </div>
-                                    <div class="tiny-12 small-9">
-                                        <div class="demo-box">nine</div>
-                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="tiny-12 small-2">
+                                    <div class="demo-box">two</div>
                                 </div>
-                                <div class="row">
-                                    <div class="tiny-12 small-4">
-                                        <div class="demo-box">four</div>
-                                    </div>
-                                    <div class="tiny-12 small-8">
-                                        <div class="demo-box">eight</div>
-                                    </div>
+                                <div class="tiny-12 small-10">
+                                    <div class="demo-box">ten</div>
                                 </div>
-                                <div class="row">
-                                    <div class="tiny-12 small-5">
-                                        <div class="demo-box">five</div>
-                                    </div>
-                                    <div class="tiny-12 small-7">
-                                        <div class="demo-box">seven</div>
-                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="tiny-12 small-3">
+                                    <div class="demo-box">three</div>
                                 </div>
-                                <div class="row">
-                                    <div class="tiny-12 small-6">
-                                        <div class="demo-box">six</div>
-                                    </div>
-                                    <div class="tiny-12 small-6">
-                                        <div class="demo-box">six</div>
-                                    </div>
+                                <div class="tiny-12 small-9">
+                                    <div class="demo-box">nine</div>
                                 </div>
-                                <div class="row">
-                                    <div class="tiny-12 small-7">
-                                        <div class="demo-box">seven</div>
-                                    </div>
-                                    <div class="tiny-12 small-5">
-                                        <div class="demo-box">five</div>
-                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="tiny-12 small-4">
+                                    <div class="demo-box">four</div>
                                 </div>
-                                <div class="row">
-                                    <div class="tiny-12 small-8">
-                                        <div class="demo-box">eight</div>
-                                    </div>
-                                    <div class="tiny-12 small-4">
-                                        <div class="demo-box">four</div>
-                                    </div>
+                                <div class="tiny-12 small-8">
+                                    <div class="demo-box">eight</div>
                                 </div>
-                                <div class="row">
-                                    <div class="tiny-12 small-9">
-                                        <div class="demo-box">nine</div>
-                                    </div>
-                                    <div class="tiny-12 small-3">
-                                        <div class="demo-box">three</div>
-                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="tiny-12 small-5">
+                                    <div class="demo-box">five</div>
                                 </div>
-                                <div class="row">
-                                    <div class="tiny-12 small-10">
-                                        <div class="demo-box">ten</div>
-                                    </div>
-                                    <div class="tiny-12 small-2">
-                                        <div class="demo-box">two</div>
-                                    </div>
+                                <div class="tiny-12 small-7">
+                                    <div class="demo-box">seven</div>
                                 </div>
-                                <div class="row">
-                                    <div class="tiny-12 small-11">
-                                        <div class="demo-box">eleven</div>
-                                    </div>
-                                    <div class="tiny-12 small-1">
-                                        <div class="demo-box">one</div>
-                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="tiny-12 small-6">
+                                    <div class="demo-box">six</div>
                                 </div>
-                                <div class="row">
-                                    <div class="tiny-12">
-                                        <div class="demo-box">twelve</div>
-                                    </div>
+                                <div class="tiny-12 small-6">
+                                    <div class="demo-box">six</div>
                                 </div>
-                            </span>
+                            </div>
+                            <div class="row">
+                                <div class="tiny-12 small-7">
+                                    <div class="demo-box">seven</div>
+                                </div>
+                                <div class="tiny-12 small-5">
+                                    <div class="demo-box">five</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="tiny-12 small-8">
+                                    <div class="demo-box">eight</div>
+                                </div>
+                                <div class="tiny-12 small-4">
+                                    <div class="demo-box">four</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="tiny-12 small-9">
+                                    <div class="demo-box">nine</div>
+                                </div>
+                                <div class="tiny-12 small-3">
+                                    <div class="demo-box">three</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="tiny-12 small-10">
+                                    <div class="demo-box">ten</div>
+                                </div>
+                                <div class="tiny-12 small-2">
+                                    <div class="demo-box">two</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="tiny-12 small-11">
+                                    <div class="demo-box">eleven</div>
+                                </div>
+                                <div class="tiny-12 small-1">
+                                    <div class="demo-box">one</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="tiny-12">
+                                    <div class="demo-box">twelve</div>
+                                </div>
+                            </div>
                         </section>
                     </div>
                 </div>
@@ -247,17 +245,20 @@
                             <br><br><h2>Auto grid</h2>
                             <p>The flexbox grid is clever! You can add any number of columns to your rows without defining their width and let the grid figure out the rest.</p>
                             <pre>
-                                <code class="language-html">&lt;div class=&quot;container&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;tiny&quot;&gt;1 of 2&lt;/div&gt;
-        &lt;div class=&quot;tiny&quot;&gt;2 of 2&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;tiny&quot;&gt;1 of 3&lt;/div&gt;
-        &lt;div class=&quot;tiny&quot;&gt;2 of 3&lt;/div&gt;
-        &lt;div class=&quot;tiny&quot;&gt;3 of 3&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</code></pre>
+                                <code class="language-html">
+                                    &lt;div class=&quot;container&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;row&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;1 of 2&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;2 of 2&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;row&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;1 of 3&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;2 of 3&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;3 of 3&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
                         </section>  
                     </div>
                 </div>
@@ -267,26 +268,29 @@
                     <div class="tiny">
                         <section class="docs-section" id="nesting"><br><br><h2>Nesting</h2></section>
                         <p>Gridder supports nesting out of box. Simply add a new <span class="tag info">.row</span> inside an existing grid like so:</p>
-                        <pre><code class="language-html">&lt;div class=&quot;row&quot;&gt;
-    &lt;div class=&quot;tiny-12 medium-6 large-8&quot;&gt;
-        &lt;p&gt;Grid Column&lt;/p&gt;
+                        <pre>
+                            <code class="language-html">
+                                &lt;div class=&quot;row&quot;&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-8&quot;&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Grid Column&lt;/p&gt;
 
-        &lt;div class=&quot;row&quot;&gt;
-            &lt;div class=&quot;tiny-12 medium-6 large-6&quot;&gt;
-                &lt;p&gt;Nested Grid Column&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;tiny-12 medium-6 large-6&quot;&gt;
-                &lt;p&gt;Nested Grid Column&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;row&quot;&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-6&quot;&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Nested Grid Column&lt;/p&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-6&quot;&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Nested Grid Column&lt;/p&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
 
-    &lt;/div&gt;
-    &lt;div class=&quot;tiny-12 medium-6 large-4&quot;&gt;
-        &lt;p&gt;Grid Column&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-                        <br>
-                        
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-4&quot;&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Grid Column&lt;/p&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                &lt;/div&gt;
+                            </code>
+                        </pre>
+                         <br>
                         <div class="row">
                             <div class="tiny-12 medium-6 large-8">
                                 <div class="demo-box">
