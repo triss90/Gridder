@@ -173,7 +173,7 @@
                 <div class="row">
                     <div class="tiny">
                         <section class="docs-section" id="breakpoints">
-                            <h2>Breakpoints</h2>
+                            <br><br><h2>Breakpoints</h2>
                             <p>
                                 For grids that don't vary in size between wide desktop devices and small handheld devices, 
                                 use the <span class="tag info">.-tiny-*</span> classes.
@@ -244,28 +244,18 @@
                 <div class="row">
                     <div class="tiny">
                         <section class="docs-section" id="auto-grid">
-                            <h2>Auto grid</h2>
+                            <br><br><h2>Auto grid</h2>
                             <p>The flexbox grid is clever! You can add any number of columns to your rows without defining their width and let the grid figure out the rest.</p>
                             <pre>
                                 <code class="language-html">&lt;div class=&quot;container&quot;&gt;
     &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;tiny&quot;&gt;
-        1 of 2
-        &lt;/div&gt;
-        &lt;div class=&quot;tiny&quot;&gt;
-        2 of 2
-        &lt;/div&gt;
+        &lt;div class=&quot;tiny&quot;&gt;1 of 2&lt;/div&gt;
+        &lt;div class=&quot;tiny&quot;&gt;2 of 2&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;tiny&quot;&gt;
-        1 of 3
-        &lt;/div&gt;
-        &lt;div class=&quot;tiny&quot;&gt;
-        2 of 3
-        &lt;/div&gt;
-        &lt;div class=&quot;tiny&quot;&gt;
-        3 of 3
-        &lt;/div&gt;
+        &lt;div class=&quot;tiny&quot;&gt;1 of 3&lt;/div&gt;
+        &lt;div class=&quot;tiny&quot;&gt;2 of 3&lt;/div&gt;
+        &lt;div class=&quot;tiny&quot;&gt;3 of 3&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;</code></pre>
                         </section>  
@@ -275,15 +265,53 @@
                 <!-- Nesting -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="nesting"><h2>Nesting</h2></section>
-                        <p></p>
+                        <section class="docs-section" id="nesting"><br><br><h2>Nesting</h2></section>
+                        <p>Gridder supports nesting out of box. Simply add a new <span class="tag info">.row</span> inside an existing grid like so:</p>
+                        <pre><code class="language-html">&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;tiny-12 medium-6 large-8&quot;&gt;
+        &lt;p&gt;Grid Column&lt;/p&gt;
+
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;tiny-12 medium-6 large-6&quot;&gt;
+                &lt;p&gt;Nested Grid Column&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;tiny-12 medium-6 large-6&quot;&gt;
+                &lt;p&gt;Nested Grid Column&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&quot;tiny-12 medium-6 large-4&quot;&gt;
+        &lt;p&gt;Grid Column&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                        <br>
+                        
+                        <div class="row">
+                            <div class="tiny-12 medium-6 large-8">
+                                <div class="demo-box">
+                                    <p>Grid Column</p>
+                                    <div class="row">
+                                        <div class="tiny-12 medium-6 large-6">
+                                            <div class="demo-box-nested">Nested Grid Column</div>
+                                        </div>
+                                        <div class="tiny-12 medium-6 large-6">
+                                            <div class="demo-box-nested ">Nested Grid Column</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tiny-12 medium-6 large-4">
+                                <div class="demo-box">Grid Column</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Masonry -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="masonry"><h2>Masonry</h2></section>
+                        <section class="docs-section" id="masonry"><br><br><h2>Masonry</h2></section>
                         <p></p>
                     </div>
                 </div>
@@ -298,7 +326,7 @@
                 <!-- Offsets -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="offsets"><h2>Offsets</h2></section>
+                        <section class="docs-section" id="offsets"><br><br><h2>Offsets</h2></section>
                         <p></p>
                     </div>
                 </div>
@@ -306,7 +334,7 @@
                 <!-- Start -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="start"><h2>Start</h2></section>
+                        <section class="docs-section" id="start"><br><br><h2>Start</h2></section>
                         <p></p>
                     </div>
                 </div>
@@ -314,7 +342,7 @@
                 <!-- Center -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="center"><h2>Center</h2></section>
+                        <section class="docs-section" id="center"><br><br><h2>Center</h2></section>
                         <p></p>
                     </div>
                 </div>
@@ -322,7 +350,7 @@
                 <!-- End -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section"id="end"><h2>End</h2></section>
+                        <section class="docs-section"id="end"><br><br><h2>End</h2></section>
                         <p></p>
                     </div>
                 </div>
@@ -330,7 +358,7 @@
                 <!-- Top -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="top"><h2>Top</h2></section>
+                        <section class="docs-section" id="top"><br><br><h2>Top</h2></section>
                         <p></p>
                     </div>
                 </div>
@@ -338,7 +366,7 @@
                 <!-- Middle -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="middle"><h2>Middle</h2></section>
+                        <section class="docs-section" id="middle"><br><br><h2>Middle</h2></section>
                         <p></p>
                     </div>
                 </div>
@@ -347,7 +375,7 @@
                 <!-- Down -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="down"><h2>Down</h2></section>
+                        <section class="docs-section" id="down"><br><br><h2>Down</h2></section>
                         <p></p>
                     </div>
                 </div>
@@ -362,7 +390,7 @@
                 <!-- Between -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="between"><h2>Between</h2></section>
+                        <section class="docs-section" id="between"><br><br><h2>Between</h2></section>
                         <p></p>
                     </div>
                 </div>
@@ -370,7 +398,7 @@
                 <!-- Around -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="around"><h2>Around</h2></section>
+                        <section class="docs-section" id="around"><br><br><h2>Around</h2></section>
                         <p></p>
                     </div>
                 </div>
@@ -385,7 +413,7 @@
                 <!-- Reverse -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="reverse"><h2>Reverse</h2></section>
+                        <section class="docs-section" id="reverse"><br><br><h2>Reverse</h2></section>
                         <p></p>
                     </div>
                 </div>
@@ -393,7 +421,7 @@
                 <!-- First -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="first"><h2>First</h2></section>
+                        <section class="docs-section" id="first"><br><br><h2>First</h2></section>
                         <p></p>
                     </div>
                 </div>
@@ -401,7 +429,7 @@
                 <!-- Last -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section"id="last"><h2>Last</h2></section>
+                        <section class="docs-section"id="last"><br><br><h2>Last</h2></section>
                         <p></p>
                     </div>
                 </div>

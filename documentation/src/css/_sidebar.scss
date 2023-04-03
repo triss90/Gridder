@@ -1,7 +1,7 @@
 nav#sidebar {
   display: block;
   position: relative;
-  width: 100%;
+  // width: 100%;
   &.sticky {
     position: fixed;
     top: 0px;
@@ -42,8 +42,4 @@ nav#sidebar {
   40% {
     transform: translate(0);
   }
-}
-
-.docs-section {
-  min-height: 75vh;
 }
