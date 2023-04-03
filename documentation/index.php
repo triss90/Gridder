@@ -38,6 +38,7 @@
 
         <section id="grid">
 
+            <!-- Notification -->
             <div class="row">
                 <div class="tiny-12">
                     <div class="notification info">
@@ -49,7 +50,9 @@
                     </div>
                 </div>
             </div>
-            <br>
+
+            <br><br><br>
+            
             <!-- Installation -->
             <div class="row">
                 <div class="tiny">
@@ -76,9 +79,42 @@
 
                     <p>Remember to add <code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</code> to the head aswell, to make sure the site scales correctly.</p>
 
+                </div>
+            </div>
+
+            <br><br><br>
+
+            <!-- CDN -->
+            <div class="row center-tiny">
+                <div class="small-12 medium-8 large-7">
+                    <h2>CDN?</h2>
                     <p>The latest build(<?php echo $latestBuild; ?>) of Gridder is also available on <strong>jsdelivr</strong>:</p>
                     <pre><code class="language-html">https://cdn.jsdelivr.net/gh/triss90/Gridder/dist/css/gridder.css</code></pre>
+                </div>
+            </div>            
 
+            <br><br><br>
+
+            <!-- FAQ -->
+            <div class="row center-tiny">
+                <div class="tiny">
+                    <h2>Frequently asked questions</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="tiny-12 small-12 medium-5 large-5">
+                    <h3>What about browser support ?</h3>
+                    <p>Gridder works in all modern browsers: <span class="tag info">IE10+</span> <span class="tag info">Edge</span> <span class="tag info">Firefox</span> <span class="tag info">Chrome</span> <span class="tag info">Safari</span> <span class="tag info">Opera</span></p>
+                    <p class="ciu_embed" data-feature="flexbox" data-periods="future_1,current,past_1,past_2"><iframe src="//caniuse.bitsofco.de/embed/index.html?feat=flexbox&amp;periods=future_1,current,past_1,past_2" frameborder="0" width="100%" height="608px"></iframe></p>
+                </div>
+                <div class="tiny-12 small-12 medium-6 medium-offset-1 large-6 large-offset-1">
+                    <h3>What is in store for Gridder in the future ?</h3>
+                    <p>We are currently working on a new version of gridder, built with a mix of CSS Flexbox and CSS Grid.</p>
+
+                    <h3>Should I use Gridder in my next project?</h3>
+                    <p>The short answer... YES!</p>
+                    <p>Gridder is built to be scalable, and thus works for small, aswell as large projects. There's been some controversy about the speed of flexbox when used for pagelayouts, but this has been <a href="https://developers.google.com/web/updates/2013/10/Flexbox-layout-isn-t-slow" target="_blank">debunked</a></p>
+                    <p>With that said, Gridder excels in small to mid-sized projects, largly because of it's easy of use and setup.</p>
                 </div>
             </div>
 
