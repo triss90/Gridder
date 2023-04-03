@@ -7,6 +7,7 @@
                 <a class="changelog" href="/documentation/docs/2/changelog/">Changelog</a>
             </div>
             <div class="tiny-12 small-4 tiny-center tiny-last">
+                <p>Gridder is a free and open source project created by <a href="https://triss.dev" target="_blank">Tristan White</a></p>
                 <p>&copy; 2017-<?php echo date("Y"); ?></p>
             </div>
             <div class="tiny-12 small-4 tiny-center tiny-first small-last small-end">
