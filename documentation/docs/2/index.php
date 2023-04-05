@@ -21,7 +21,8 @@
     <main class="container">
 
         <div id="grid" class="row">
-
+            
+            <!-- Navigation -->
             <div class="tiny-2">
                 <nav id="sidebar">
                     <h3>Basic Grid</h3>
@@ -46,7 +47,6 @@
                     <a class="first" href="#first">First</a>
                     <a class="last" href="#last">Last</a>
                 </nav>
-                
             </div>
 
             <div class="tiny-10">
@@ -245,8 +245,7 @@
                             <br><br><h2>Auto grid</h2>
                             <p>The flexbox grid is clever! You can add any number of columns to your rows without defining their width and let the grid figure out the rest.</p>
                             <pre>
-                                <code class="language-html">
-                                    &lt;div class=&quot;container&quot;&gt;
+                                <code class="language-html">&lt;div class=&quot;container&quot;&gt;
                                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;row&quot;&gt;
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;1 of 2&lt;/div&gt;
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;2 of 2&lt;/div&gt;
@@ -259,6 +258,15 @@
                                     &lt;/div&gt;
                                 </code>
                             </pre>
+                            <div class="row">
+                                <div class="tiny"><div class="demo-box">1 of 2</div></div>
+                                <div class="tiny"><div class="demo-box">2 of 2</div></div>
+                            </div>
+                            <div class="row">
+                                <div class="tiny"><div class="demo-box">1 of 3</div></div>
+                                <div class="tiny"><div class="demo-box">2 of 3</div></div>
+                                <div class="tiny"><div class="demo-box">3 of 3</div></div>
+                            </div>
                         </section>  
                     </div>
                 </div>
@@ -266,57 +274,62 @@
                 <!-- Nesting -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="nesting"><br><br><h2>Nesting</h2></section>
-                        <p>Gridder supports nesting out of box. Simply add a new <span class="tag info">.row</span> inside an existing grid like so:</p>
-                        <pre>
-                            <code class="language-html">
-                                &lt;div class=&quot;row&quot;&gt;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-8&quot;&gt;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Grid Column&lt;/p&gt;
+                        <section class="docs-section" id="nesting">
+                            <br><br>
+                            <h2>Nesting</h2>
+                            <p>Gridder supports nesting out of box. Simply add a new <span class="tag info">.row</span> inside an existing grid like so:</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-8&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Grid Column&lt;/p&gt;
 
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;row&quot;&gt;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-6&quot;&gt;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Nested Grid Column&lt;/p&gt;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-6&quot;&gt;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Nested Grid Column&lt;/p&gt;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;row&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-6&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Nested Grid Column&lt;/p&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-6&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Nested Grid Column&lt;/p&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
 
-                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-4&quot;&gt;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Grid Column&lt;/p&gt;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
-                                &lt;/div&gt;
-                            </code>
-                        </pre>
-                         <br>
-                        <div class="row">
-                            <div class="tiny-12 medium-6 large-8">
-                                <div class="demo-box">
-                                    <p>Grid Column</p>
-                                    <div class="row">
-                                        <div class="tiny-12 medium-6 large-6">
-                                            <div class="demo-box-nested">Nested Grid Column</div>
-                                        </div>
-                                        <div class="tiny-12 medium-6 large-6">
-                                            <div class="demo-box-nested ">Nested Grid Column</div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-4&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Grid Column&lt;/p&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <br>
+                            <div class="row">
+                                <div class="tiny-12 medium-6 large-8">
+                                    <div class="demo-box">
+                                        <p>Grid Column</p>
+                                        <div class="row">
+                                            <div class="tiny-12 medium-6 large-6">
+                                                <div class="demo-box-nested">Nested Grid Column</div>
+                                            </div>
+                                            <div class="tiny-12 medium-6 large-6">
+                                                <div class="demo-box-nested ">Nested Grid Column</div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="tiny-12 medium-6 large-4">
+                                    <div class="demo-box">Grid Column</div>
+                                </div>
                             </div>
-                            <div class="tiny-12 medium-6 large-4">
-                                <div class="demo-box">Grid Column</div>
-                            </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
 
                 <!-- Masonry -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="masonry"><br><br><h2>Masonry</h2></section>
-                        <p></p>
+                        <section class="docs-section" id="masonry">
+                            <br><br>
+                            <h2>Masonry</h2>
+                            <p></p>
+                        </section>
                     </div>
                 </div>
 
@@ -330,8 +343,25 @@
                 <!-- Offsets -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="offsets"><br><br><h2>Offsets</h2></section>
-                        <p></p>
+                        <section class="docs-section" id="offsets">
+                            <br><br>
+                            <h2>Offsets</h2>
+                            <p>Offsetting columns is easy, simply and <span class="tag info">*-offset-3</span> if you wish to offset your column 3 columns from the left. The * in this case referes to one of the breakpoints (tiny, small, medium and large).</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-offset-3 tiny-9&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;offset 3 columns
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <br>
+                            <div class="row">
+                                <div class="tiny-offset-3 tiny-9">
+                                    <div class="demo-box">offset 3 columns</div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
 

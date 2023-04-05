@@ -1,7 +1,7 @@
 nav#sidebar {
-  display: block;
+  display: inline-block;
   position: relative;
-  // width: 100%;
+  width: 115px;
   &.sticky {
     position: fixed;
     top: 0px;
