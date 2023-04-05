@@ -234,6 +234,15 @@
                                 </tbody>
                             </table>
                             <small>* a number between 1 - 12 defining the number columns</small>
+                            <p>To use the breakpoints defined above, make sure to wrap your grid in the <span class="tag info">.container</span> class, like so:</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;container&quot;&gt;
+
+                                    &lt;!-- ... Your Grid (rows, columns and everything) ... --&gt;
+                                    
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
                         </section>
                     </div>
                 </div>
@@ -242,19 +251,17 @@
                 <div class="row">
                     <div class="tiny">
                         <section class="docs-section" id="auto-grid">
-                            <br><br><h2>Auto grid</h2>
+                            <br><h2>Auto grid</h2>
                             <p>The flexbox grid is clever! You can add any number of columns to your rows without defining their width and let the grid figure out the rest.</p>
                             <pre>
-                                <code class="language-html">&lt;div class=&quot;container&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;row&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;1 of 2&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;2 of 2&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;row&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;1 of 3&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;2 of 3&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;3 of 3&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                <code class="language-html">&lt;div class=&quot;row&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;1 of 2&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;2 of 2&lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;row&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;1 of 3&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;2 of 3&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;3 of 3&lt;/div&gt;
                                     &lt;/div&gt;
                                 </code>
                             </pre>
@@ -281,21 +288,16 @@
                             <pre>
                                 <code class="language-html">&lt;div class=&quot;row&quot;&gt;
                                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-8&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Grid Column&lt;/p&gt;
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Grid Column
 
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;row&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-6&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Nested Grid Column&lt;/p&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-6&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Nested Grid Column&lt;/p&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6&quot;&gt;Nested Grid Column&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6&quot;&gt;Nested Grid Column&lt;/div&gt;
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
 
                                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-4&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Grid Column&lt;/p&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-12 medium-6 large-4&quot;&gt;Grid Column&lt;/div&gt;
                                     &lt;/div&gt;
                                 </code>
                             </pre>
@@ -349,12 +351,8 @@
                             <p>Offsetting columns is easy! Simply add <span class="tag info">*-offset-3</span> if you wish to offset your column 3 columns from the left. The * in this case refers to one of the breakpoints (tiny, small, medium, large and huge). You can naturally chain these to offset differently on the various breakpoints.</p>
                             <pre>
                                 <code class="language-html">&lt;div class=&quot;row&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-offset-3 tiny-6&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 columns   
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 columns
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-6 tiny-offset-3&quot;&gt;6 columns&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;3 columns&lt;/div&gt;
                                     &lt;/div&gt;
                                 </code>
                             </pre>
@@ -364,10 +362,10 @@
                                      <div class="demo-box-empty">&#8592; 3 colums offset &#8594;</div>
                                 </div>
                                 <div class="tiny-6">
-                                    <div class="demo-box">3 columns</div>
+                                    <div class="demo-box">6 columns</div>
                                 </div>
                                 <div class="tiny-3">
-                                     <div class="demo-box">2 columns</div>
+                                     <div class="demo-box">3 columns</div>
                                 </div>
                             </div>
                         </section>
