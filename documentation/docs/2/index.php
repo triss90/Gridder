@@ -346,19 +346,28 @@
                         <section class="docs-section" id="offsets">
                             <br><br>
                             <h2>Offsets</h2>
-                            <p>Offsetting columns is easy, simply and <span class="tag info">*-offset-3</span> if you wish to offset your column 3 columns from the left. The * in this case referes to one of the breakpoints (tiny, small, medium and large).</p>
+                            <p>Offsetting columns is easy! Simply add <span class="tag info">*-offset-3</span> if you wish to offset your column 3 columns from the left. The * in this case refers to one of the breakpoints (tiny, small, medium, large and huge). You can naturally chain these to offset differently on the various breakpoints.</p>
                             <pre>
                                 <code class="language-html">&lt;div class=&quot;row&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-offset-3 tiny-9&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;offset 3 columns
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-offset-3 tiny-6&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 columns   
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 columns
                                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
                                     &lt;/div&gt;
                                 </code>
                             </pre>
                             <br>
                             <div class="row">
-                                <div class="tiny-offset-3 tiny-9">
-                                    <div class="demo-box">offset 3 columns</div>
+                                <div class="tiny-3">
+                                     <div class="demo-box-empty">&#8592; 3 colums offset &#8594;</div>
+                                </div>
+                                <div class="tiny-6">
+                                    <div class="demo-box">3 columns</div>
+                                </div>
+                                <div class="tiny-3">
+                                     <div class="demo-box">2 columns</div>
                                 </div>
                             </div>
                         </section>

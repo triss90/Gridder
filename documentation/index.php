@@ -60,8 +60,7 @@
                     <h2 id="installation">Get Started</h2>
                     <p>Simply <a href="#home">download</a> Gridder and add it to your website's head, like this:</p>
                     <pre>
-                        <code class="language-html">
-                            &lt;!--index.html--&gt;
+                        <code class="language-html">&lt;!--index.html--&gt;
                             &lt;html&gt;
 
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;

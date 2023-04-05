@@ -13,3 +13,22 @@
   background-color: var(--color-0);
   font-size: 100%;
 }
+
+.demo-box-empty {
+  background-color: var(--color-0);
+  background-size: 18px 18px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--color-1) 0,
+    var(--color-1) 1px,
+    var(--color-0) 0,
+    var(--color-0) 50%
+  );
+  padding: calc($default-space);
+  border-radius: calc($default-space / 2);
+  margin-bottom: $default-space;
+  text-align: center;
+  color: var(--color-2);
+  text-transform: uppercase;
+  font-size: 75%;
+}
