@@ -1,3 +1,12 @@
+.demo-row {
+  height: 250px;
+  padding-top: calc($default-space / 2);
+  padding-bottom: calc($default-space / 2);
+  background-color: var(--color-3-2);
+  border-radius: calc($default-space / 2);
+  border: 1px dashed var(--color-3-1);
+}
+
 .demo-box,
 .demo-box-nested {
   background-color: var(--color-1);

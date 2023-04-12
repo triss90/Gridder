@@ -34,11 +34,11 @@
                     <h3>Alignment</h3>
                     <a class="offsets" href="#offsets">Offsets</a>
                     <a class="start" href="#start">Start</a>
-                    <a class="center" href="#center">Center</a>
                     <a class="end" href="#end">End</a>
-                    <a class="top" href="#top">Top</a>
+                    <a class="center" href="#center">Center</a>
                     <a class="middle" href="#middle">Middle</a>
-                    <a class="down" href="#down">Down</a>
+                    <a class="top" href="#top">Top</a>
+                    <a class="bottom" href="#bottom">Bottom</a>
                     <h3>Distribution</h3>
                     <a class="between" href="#between">Between</a>
                     <a class="around" href="#around">Around</a>
@@ -338,7 +338,7 @@
                 <!-- Alignment -->
                 <div class="row">
                     <div class="tiny">
-                        <h1 id="alignment">Alignment</h1>
+                        <br><br><br><h1 id="alignment">Alignment</h1>
                     </div>
                 </div>
 
@@ -375,102 +375,269 @@
                 <!-- Start -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="start"><br><br><h2>Start</h2></section>
-                        <p></p>
-                    </div>
-                </div>
-
-                <!-- Center -->
-                <div class="row">
-                    <div class="tiny">
-                        <section class="docs-section" id="center"><br><br><h2>Center</h2></section>
-                        <p></p>
+                        <section class="docs-section" id="start">
+                            <br><br><h2>Start</h2>
+                            <p>Gridder allows you to align columns as you see fit. With the class <span class="tag info">.*-start</span> (where * represents your <a href="#breakpoints">breakpoint</a>), you can force columns to the start of a row.</p>
+                            <p>This is useful when reordering items on different viewports.</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row tiny-start&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-8 medium-6&quot;&gt;column (forced to start of row)&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <div class="row tiny-start">
+                                <div class="tiny-8 medium-6"><div class="demo-box">column (forced to start of row)</div></div>
+                            </div>
+                        </section>
                     </div>
                 </div>
 
                 <!-- End -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section"id="end"><br><br><h2>End</h2></section>
-                        <p></p>
+                        <section class="docs-section"id="end">
+                            <br><br><h2>End</h2>
+                            <p>With <span class="tag info">.*-end</span> (where * represents your breakpoint) you can force columns to the end of a row. Just like <a href="#start">.*-start</a> this is useful when reordering items on different viewports.</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row tiny-end&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-8 medium-6&quot;&gt;column (forced to end of row)&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <div class="row tiny-end">
+                                <div class="tiny-8 medium-6"><div class="demo-box">column (forced to end of row)</div></div>
+                            </div>
+                        </section>
                     </div>
                 </div>
 
-                <!-- Top -->
+                <!-- Center -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="top"><br><br><h2>Top</h2></section>
-                        <p></p>
+                        <section class="docs-section" id="center">
+                            <br><br><h2>Center</h2>
+                            <p>Gridder also allows you to align columns to the center of a row with <span class="tag info">.*-center</span> (where * represents your breakpoint). This will align items horizontally.</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row tiny-center&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-8 medium-6&quot;&gt;column (forced to center of row)&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <div class="row tiny-center">
+                                <div class="tiny-8 medium-6"><div class="demo-box">column (forced to center of row)</div></div>
+                            </div>
+                        </section>
                     </div>
                 </div>
 
                 <!-- Middle -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="middle"><br><br><h2>Middle</h2></section>
-                        <p></p>
+                        <section class="docs-section" id="middle">
+                            <br><br><h2>Middle</h2>
+                            <p>You can also align items to the middle of a row with <span class="tag info">.*-middle</span> (where * represents your breakpoint). This will align items vertically.</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row tiny-middle&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-8 medium-6&quot;&gt;column (forced to middle of row)&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <div class="row tiny-middle demo-row">
+                                <div class="tiny-8 medium-6"><div class="demo-box">column (forced to middle of row)</div></div>
+                            </div>
+                            <p>Combining <a href="#center">.*-center</a> and <a href="#middle">.*-middle</a> allows you to center items in a row both vertically and horizontally.</p>
+                             <pre>
+                                <code class="language-html">&lt;div class=&quot;row tiny-center tiny-middle&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-8 medium-6&quot;&gt;column (centered)&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <div class="row tiny-center tiny-middle demo-row">
+                                <div class="tiny-8 medium-6"><div class="demo-box" style="margin:0;">column (centered)</div></div>
+                            </div>
+                        </section>
                     </div>
                 </div>
 
-
-                <!-- Down -->
+                <!-- Top -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="down"><br><br><h2>Down</h2></section>
-                        <p></p>
+                        <section class="docs-section" id="top">
+                            <br><br><h2>Top</h2>
+                            <p>Just like you can force items on the horizontal plane with <a href="#start">.*-start</a> and <a href="#end">.*-end</a>, 
+                                you can do so on the vertical plane with <a href="#top">.*-top</a> and <a href="#bottom">.bottom-*</a>.</p>
+                            <p>To force items to the top, use <span class="tag info">.*-top</span> (where * represents your <a href="#breakpoints">breakpoint</a>).</p>
+                            <p>This is useful when reordering items on different viewports.</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row tiny-top&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-8 medium-6&quot;&gt;column (forced to top of row)&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <div class="row tiny-top demo-row">
+                                <div class="tiny-8 medium-6"><div class="demo-box">column (forced to top of row)</div></div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- Bottom -->
+                <div class="row">
+                    <div class="tiny">
+                        <section class="docs-section" id="bottom">
+                            <br><br><h2>Bottom</h2>
+                            <p>To force items to the bottom, use <span class="tag info">.*-bottom</span> (where * represents your <a href="#breakpoints">breakpoint</a>).</p>
+                            <p>This is useful when reordering items on different viewports.</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row tiny-bottom&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-8 medium-6&quot;&gt;column (forced to bottom of row)&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <div class="row tiny-bottom demo-row">
+                                <div class="tiny-8 medium-6"><div class="demo-box" style="margin-bottom: 0;">column (forced to bottom of row)</div></div>
+                            </div>
+                        </section>
                     </div>
                 </div>
 
                 <!-- Distribution -->
                 <div class="row">
                     <div class="tiny">
-                        <h1 id="distribution">Distribution</h1>
+                        <br><br><br><h1 id="distribution">Distribution</h1>
                     </div>
                 </div>
 
                 <!-- Between -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="between"><br><br><h2>Between</h2></section>
-                        <p></p>
+                        <section class="docs-section" id="between">
+                            <br><br><h2>Between</h2>
+                            <p>Gridder allows for a few ways to dsitribute space, one of witch is to fill space between columns, leaving no space at the start and end of the row. To to this, simply add <span class="tag info">.*-between</span> (where * represents your <a href="#breakpoints">breakpoint</a>) to your row element.</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row tiny-between&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;column&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;column&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;column&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <div class="row tiny-between">
+                                <div class="tiny-3"><div class="demo-box">column</div></div>
+                                <div class="tiny-3"><div class="demo-box">column</div></div>
+                                <div class="tiny-3"><div class="demo-box">column</div></div>
+                            </div>
+                        </section>
                     </div>
                 </div>
                 
                 <!-- Around -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="around"><br><br><h2>Around</h2></section>
-                        <p></p>
+                        <section class="docs-section" id="around">
+                            <br><br><h2>Between</h2>
+                            <p>Another way of distributing space, is using the <span class="tag info">.*-around</span> (where * represents your <a href="#breakpoints">breakpoint</a>) class, which distributes items evenly across a row, leaving space at the start and end of the row.</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row tiny-around&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;column&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;column&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;column&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <div class="row tiny-around">
+                                <div class="tiny-3"><div class="demo-box">column</div></div>
+                                <div class="tiny-3"><div class="demo-box">column</div></div>
+                                <div class="tiny-3"><div class="demo-box">column</div></div>
+                            </div>
+                        </section>
                     </div>
                 </div>
 
                 <!-- Reordering -->
                 <div class="row">
                     <div class="tiny">
-                        <h1 id="reordering">Reordering</h1>
+                        <br><br><br><h1 id="reordering">Reordering</h1>
                     </div>
                 </div>
 
                 <!-- Reverse -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="reverse"><br><br><h2>Reverse</h2></section>
-                        <p></p>
+                        <section class="docs-section" id="reverse">
+                            <br><br><h2>Reverse</h2>
+                            <p>To reverse the order of columns in row, simply add the class reverse to the row element.</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row reverse&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;1&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;2&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;3&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;4&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <p>Note how the order is reversed:</p>
+                            <div class="row reverse">
+                                <div class="tiny-3"><div class="demo-box">1</div></div>
+                                <div class="tiny-3"><div class="demo-box">2</div></div>
+                                <div class="tiny-3"><div class="demo-box">3</div></div>
+                                <div class="tiny-3"><div class="demo-box">4</div></div>
+                            </div>
+                        </section>
                     </div>
                 </div>
                 
                 <!-- First -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section" id="first"><br><br><h2>First</h2></section>
-                        <p></p>
+                        <section class="docs-section" id="first">
+                            <br><br><h2>First</h2>
+                            <p>To make a column appear as the first element, simply add <span class="tag info">.*-first</span> (where * represents your <a href="#breakpoints">breakpoint</a>) to the column element.</p>
+                            <p>This is very useful for reordering columns on different viewports</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;1&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;2&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;3&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3 tiny-first&quot;&gt;4&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <p>Note how the order has changed:</p>
+                            <div class="row">
+                                <div class="tiny-3"><div class="demo-box">1</div></div>
+                                <div class="tiny-3"><div class="demo-box">2</div></div>
+                                <div class="tiny-3"><div class="demo-box">3</div></div>
+                                <div class="tiny-3 tiny-first"><div class="demo-box">4</div></div>
+                            </div>
+                        </section>
                     </div>
                 </div>
 
                 <!-- Last -->
                 <div class="row">
                     <div class="tiny">
-                        <section class="docs-section"id="last"><br><br><h2>Last</h2></section>
+                        <section class="docs-section"id="last">
+                            <br><br><h2>Last</h2>
+                            <p>To make a column appear as the last element, simply add <span class="tag info">.*-last</span> (where * represents your <a href="#breakpoints">breakpoint</a>) to the column element.</p>
+                            <p>This is very useful for reordering columns on different viewports</p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;row&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3 tiny-last&quot;&gt;1&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;2&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;3&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny-3&quot;&gt;4&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <p>Note how the order has changed:</p>
+                            <div class="row">
+                                <div class="tiny-3 tiny-last"><div class="demo-box">1</div></div>
+                                <div class="tiny-3"><div class="demo-box">2</div></div>
+                                <div class="tiny-3"><div class="demo-box">3</div></div>
+                                <div class="tiny-3"><div class="demo-box">4</div></div>
+                            </div>
+                        </section>
                         <p></p>
                     </div>
                 </div>
