@@ -82,7 +82,7 @@
     overflow-x: auto;
     padding: 1em;
     color: #383a42;
-    background: #fafafa;
+    background: var(--c3);
   }
 
   .hljs-comment,
@@ -162,7 +162,7 @@
     overflow-x: auto;
     padding: 0.5em;
     color: #abb2bf;
-    background: #282c34;
+    background: var(--c3);
   }
 
   .hljs-comment,

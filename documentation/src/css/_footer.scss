@@ -1,16 +1,12 @@
 footer {
-  background-color: var(--color-3);
-  background-image: linear-gradient(var(--color-3-1) 2px, transparent 2px),
-    linear-gradient(90deg, var(--color-3-1) 2px, transparent 2px),
-    linear-gradient(var(--color-3-1) 1px, transparent 1px),
-    linear-gradient(90deg, var(--color-3-1) 1px, var(--color-3) 1px);
-  background-size: calc(35px * 1) calc(35px * 1), calc(35px * 1) calc(35px * 1),
-    35px 35px, 35px 35px;
-  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
-
-  color: var(--color-1);
-  margin-top: 15rem;
-  padding: 3rem 0;
+  background-color: var(--c3);
+  background-image: linear-gradient(var(--c2) 1px, transparent 1px),
+    linear-gradient(to right, var(--c2) 1px, var(--c3) 1px);
+  background-size: 24px 24px;
+  background-position: bottom;
+  color: var(--c5);
+  margin-top: 25rem;
+  padding: 3.3rem 0;
   svg {
     height: 1rem;
     width: 1rem;
@@ -20,7 +16,7 @@ footer {
   a {
     display: block;
     margin-bottom: 0.5rem;
-    color: var(--color-1);
+    color: var(--c10);
   }
   p {
     margin-bottom: 0.5rem;

@@ -12,7 +12,7 @@ table {
     padding: 0.5rem;
     text-align: left;
     vertical-align: top;
-    border-bottom: 0.1rem solid var(--color-1);
+    border-bottom: 0.1rem solid var(--c2);
   }
   .th {
     font-family: "Open Sans Bold", sans-serif;
@@ -28,11 +28,11 @@ table {
 
   // Border
   &.border {
-    border: 0.1rem solid var(--color-1);
+    border: 0.1rem solid var(--c2);
     th,
     td {
       padding: 0.8rem;
-      border: 0.1rem solid var(--color-1);
+      border: 0.1rem solid var(--c2);
     }
     th {
       background-color: rgba(0, 0, 0, 0.05);

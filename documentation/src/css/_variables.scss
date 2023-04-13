@@ -2,67 +2,73 @@ $default-space: 1rem;
 
 /* Base color scheme (fallback) */
 :root {
-  --color-0: #fff;
-  --color-0-1: #19191a;
-  --color-0-2: #fff;
-  --color-1: #eee;
-  --color-2: #5a5a5a;
-  --color-3: #2a2a2a;
-  --color-3-1: #19191a;
-  --color-3-2: #fafafa;
+  --c1: #fff;
+  --c2: #eee;
+  --c3: #f9f9f9;
+  --c4: #5a5a5a;
+  --c5: #19191a;
+  --c6: #2a2a2a;
+  --c7: #282c34;
+  --c8: #333333;
 
-  --color-4: #dce8ff;
-  --color-4-1: #1e64ff;
-  --color-5: #e5f4e8;
-  --color-5-1: #31ab4c;
-  --color-6: #fbf9e6;
-  --color-6-1: #bbaa24;
-  --color-7: #fbe6e8;
-  --color-7-1: #ee3042;
+  --c9: #dce8ff;
+  --c10: #1e64ff;
+  --c11: #e5f4e8;
+  --c12: #31ab4c;
+  --c13: #fbf9e6;
+  --c14: #bbaa24;
+  --c15: #fbe6e8;
+  --c16: #ee3042;
+  --c17: #19191a;
+  --c18: #f9f9f9;
 }
 
 /* whitemode or fallback if user has no preference */
 @media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
   :root {
-    --color-0: #fff;
-    --color-0-1: #19191a;
-    --color-0-2: #fff;
-    --color-1: #eee;
-    --color-2: #5a5a5a;
-    --color-3: #2a2a2a;
-    --color-3-1: #2f2f2f;
-    --color-3-2: #fafafa;
+    --c1: #fff;
+    --c2: #eee;
+    --c3: #f9f9f9;
+    --c4: #ddd;
+    --c5: #19191a;
+    --c6: #2a2a2a;
+    --c7: #282c34;
+    --c8: #333333;
 
-    --color-4: #dce8ff;
-    --color-4-1: #1e64ff;
-    --color-5: #e5f4e8;
-    --color-5-1: #31ab4c;
-    --color-6: #fbf9e6;
-    --color-6-1: #bbaa24;
-    --color-7: #fbe6e8;
-    --color-7-1: #ee3042;
+    --c9: #dce8ff;
+    --c10: #1e64ff;
+    --c11: #e5f4e8;
+    --c12: #31ab4c;
+    --c13: #fbf9e6;
+    --c14: #bbaa24;
+    --c15: #fbe6e8;
+    --c16: #ee3042;
+    --c17: #19191a;
+    --c18: #f9f9f9;
   }
 }
 
 /* darkmode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-0: #19191a;
-    --color-0-1: #19191a;
-    --color-0-2: #fff;
-    --color-1: #282c34;
-    --color-2: #eee;
-    --color-3: #fff;
-    --color-3-1: #f9f9f9;
-    --color-3-2: #282c34;
+    --c1: #282c34;
+    --c2: #19191a;
+    --c3: #19191a;
+    --c4: #333333;
+    --c5: #fff;
+    --c6: #eee;
+    --c7: #f9f9f9;
+    --c8: #bcd3ff;
 
-    --color-4: #dce8ff;
-    --color-4-1: #1e64ff;
-    --color-5: #e5f4e8;
-    --color-5-1: #31ab4c;
-    --color-6: #fbf9e6;
-    --color-6-1: #bbaa24;
-    --color-7: #fbe6e8;
-    --color-7-1: #ee3042;
+    --c9: #bcd3ff;
+    --c10: #1e64ff;
+    --c11: #e5f4e8;
+    --c12: #31ab4c;
+    --c13: #fbf9e6;
+    --c14: #bbaa24;
+    --c15: #fbe6e8;
+    --c16: #ee3042;
+    --c17: #19191a;
+    --c18: #f9f9f9;
   }
 }

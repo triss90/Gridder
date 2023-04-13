@@ -1,7 +1,7 @@
 .tag {
   display: inline-block;
-  background: var(--color-1);
-  color: var(--color-3);
+  background: var(--c2);
+  color: var(--c5);
   font-size: 70%;
   font-weight: bold;
   padding: 0.15rem 0.3rem;
@@ -10,37 +10,37 @@
   position: relative;
   top: -1px;
   &.info {
-    background-color: var(--color-4);
-    color: var(--color-4-1);
+    background-color: var(--c9);
+    color: var(--c10);
   }
   &.success {
-    background-color: var(--color-5);
-    color: var(--color-5-1);
+    background-color: var(--c11);
+    color: var(--c12);
   }
   &.warning {
-    background-color: var(--color-6);
-    color: var(--color-6-1);
+    background-color: var(--c13);
+    color: var(--c14);
   }
   &.error {
-    background-color: var(--color-7);
-    color: var(--color-7-1);
+    background-color: var(--c15);
+    color: var(--c16);
   }
   @media (prefers-color-scheme: dark) {
     &.info {
-      background-color: var(--color-4-1);
-      color: var(--color-4);
+      background-color: var(--c10);
+      color: var(--c9);
     }
     &.success {
-      background-color: var(--color-5-1);
-      color: var(--color-5);
+      background-color: var(--c12);
+      color: var(--c11);
     }
     &.warning {
-      background-color: var(--color-6-1);
-      color: var(--color-6);
+      background-color: var(--c14);
+      color: var(--c13);
     }
     &.error {
-      background-color: var(--color-7-1);
-      color: var(--color-7);
+      background-color: var(--c16);
+      color: var(--c15);
     }
   }
 }

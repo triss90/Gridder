@@ -1,15 +1,15 @@
 .button {
   display: inline-block;
-  background: var(--color-1);
-  color: var(--color-3);
+  background: var(--c2);
+  color: var(--c5);
   text-decoration: none;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   transition: opacity 175ms ease;
   cursor: pointer;
   &:hover {
-    background: var(--color-1);
-    color: var(--color-3);
+    background: var(--c3);
+    color: var(--c5);
     opacity: 0.8;
     text-decoration: none;
   }
@@ -20,35 +20,35 @@
     top: 2px;
   }
   &.info {
-    background-color: var(--color-4);
-    color: var(--color-4-1);
+    background-color: var(--c9);
+    color: var(--c10);
     &:hover {
-      background: var(--color-4);
-      color: var(--color-4-1);
+      background: var(--c9);
+      color: var(--c10);
     }
   }
   &.success {
-    background-color: var(--color-5);
-    color: var(--color-5-1);
+    background-color: var(--c11);
+    color: var(--c12);
     &:hover {
-      background: var(--color-5);
-      color: var(--color-5-1);
+      background: var(--c11);
+      color: var(--c12);
     }
   }
   &.warning {
-    background-color: var(--color-6);
-    color: var(--color-6-1);
+    background-color: var(--c13);
+    color: var(--c14);
     &:hover {
-      background: var(--color-6);
-      color: var(--color-6-1);
+      background: var(--c13);
+      color: var(--c14);
     }
   }
   &.error {
-    background-color: var(--color-7);
-    color: var(--color-7-1);
+    background-color: var(--c15);
+    color: var(--c15);
     &:hover {
-      background: var(--color-7);
-      color: var(--color-7-1);
+      background: var(--c15);
+      color: var(--c16);
     }
   }
 }

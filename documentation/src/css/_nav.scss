@@ -2,7 +2,7 @@ nav#navigation {
   a {
     display: inline-block;
     padding: 1rem;
-    color: var(--color-3);
+    color: var(--c6);
     cursor: pointer;
     svg {
       height: 1rem;
@@ -26,5 +26,5 @@ nav#navigation {
 #home nav#navigation a.home,
 #documentation nav#navigation a.documentation,
 #changelog nav#navigation a.changelog {
-  color: var(--color-4-1);
+  color: var(--c10);
 }

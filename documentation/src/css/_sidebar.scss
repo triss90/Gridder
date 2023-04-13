@@ -14,6 +14,7 @@ nav#sidebar {
     display: block;
     margin: 0.35rem 0;
     transition: all 150ms ease;
+    color: var(--c10);
     &.active {
       margin-left: 1rem;
       position: relative;
@@ -24,11 +25,14 @@ nav#sidebar {
         left: -1rem;
       }
     }
+    @media (prefers-color-scheme: dark) {
+      color: var(--c9);
+    }
   }
   h3 {
     margin-top: 1.4em;
     margin-bottom: 0.5rem;
-    color: var(--color-3);
+    color: var(--c6);
   }
 }
 
