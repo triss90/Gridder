@@ -13,8 +13,10 @@ p {
 hr {
   height: 1px;
   width: 100%;
-  background: var(--c3);
+  // background: var(--c4);
   border: 0;
+  border-top: 2px dotted var(--c4);
+  // border-width: 7px;
   margin: 1rem 0;
 }
 
@@ -35,4 +37,14 @@ code {
 pre,
 code {
   white-space: pre-line;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.85rem;
+}
+h3 {
+  font-size: 1.25rem;
 }

@@ -338,7 +338,7 @@
                 <!-- Alignment -->
                 <div class="row">
                     <div class="tiny">
-                        <br><br><br><h1 id="alignment">Alignment</h1>
+                        <br><br><br><hr><br><h1 id="alignment">Alignment</h1>
                     </div>
                 </div>
 
@@ -504,7 +504,7 @@
                 <!-- Distribution -->
                 <div class="row">
                     <div class="tiny">
-                        <br><br><br><h1 id="distribution">Distribution</h1>
+                        <br><br><br><hr><br><h1 id="distribution">Distribution</h1>
                     </div>
                 </div>
 
@@ -557,7 +557,7 @@
                 <!-- Reordering -->
                 <div class="row">
                     <div class="tiny">
-                        <br><br><br><h1 id="reordering">Reordering</h1>
+                        <br><br><br><hr><br><h1 id="reordering">Reordering</h1>
                     </div>
                 </div>
 
