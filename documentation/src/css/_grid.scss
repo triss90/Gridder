@@ -8,7 +8,8 @@
 }
 
 .demo-box,
-.demo-box-nested {
+.demo-box-nested,
+.demo-box-masonry {
   background-color: var(--c2);
   padding: calc($default-space);
   border-radius: calc($default-space / 2);
@@ -21,6 +22,11 @@
 .demo-box-nested {
   background-color: var(--c3);
   font-size: 100%;
+}
+.demo-box-masonry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .demo-box-empty {
