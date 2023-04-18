@@ -1,6 +1,6 @@
 .button {
   display: inline-block;
-  background: var(--c2);
+  background: var(--c3);
   color: var(--c5);
   text-decoration: none;
   padding: 0.75rem 1rem;
@@ -45,10 +45,33 @@
   }
   &.error {
     background-color: var(--c15);
-    color: var(--c15);
+    color: var(--c16);
     &:hover {
       background: var(--c15);
       color: var(--c16);
+    }
+  }
+  &.transparent {
+    background-color: transparent;
+    &.dark {
+      color: var(--c7);
+      @media (prefers-color-scheme: dark) {
+        color: var(--c1);
+      }
+      @media (prefers-color-scheme: light),
+        (prefers-color-scheme: no-preference) {
+        color: var(--c7);
+      }
+    }
+    &.light {
+      color: var(--c1);
+      @media (prefers-color-scheme: dark) {
+        color: var(--c7);
+      }
+      @media (prefers-color-scheme: light),
+        (prefers-color-scheme: no-preference) {
+        color: var(--c1);
+      }
     }
   }
 }

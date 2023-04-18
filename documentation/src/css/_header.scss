@@ -1,11 +1,16 @@
 .header {
+  background: var(--c9)
+    url('data:image/svg+xml;,<svg xmlns="http://www.w3.org/2000/svg" fill="%231e64ff"><pattern id="a" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(65)"><path d="M10 0v9h9v1h-9v9h-1v-9h-9v-1h9v-9" opacity=".08"/><path d="M0 19h19v-19h1v20h-20" opacity=".15"/></pattern><rect width="100%" height="100%" fill="%23dce8ff"/><rect width="100%" height="100%" fill="url(%23a)"/></svg>');
+  color: var(--c7);
+  @media (prefers-color-scheme: dark) {
+    color: var(--c1);
+  }
+  @media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+    color: var(--c7);
+  }
   padding: 4rem 0 5.57rem 0;
   margin-bottom: 4rem;
-  background-color: var(--c3);
-  background-image: linear-gradient(var(--c2) 1px, transparent 1px),
-    linear-gradient(to right, var(--c2) 1px, var(--c3) 1px);
-  background-size: 24px 24px;
-  color: var(--c5);
+  min-height: 100%;
   &.big {
     padding: 9rem 0 10rem 0;
   }
