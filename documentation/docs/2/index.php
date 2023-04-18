@@ -23,7 +23,7 @@
         <div id="grid" class="row">
             
             <!-- Navigation -->
-            <div class="tiny-2">
+            <div class="sidebar_wrapper tiny-2">
                 <nav id="sidebar">
                     <h3>Basic Grid</h3>
                     <a class="the-grid" href="#the-grid">The Grid</a>
@@ -52,7 +52,7 @@
                 </nav>
             </div>
 
-            <div class="tiny-10">
+            <div class="tiny-12 small-10">
 
                 <!-- Basic Grid -->
                 <div class="row">
