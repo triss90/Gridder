@@ -1,29 +1,291 @@
-.masonry{
-	display:block;
-	column-gap:$gap
+.m,
+.masonry {
+  display: block;
+  column-gap: $gap * 2;
 }
-.masonry>*{
-	width:100%;
-	max-width:none;
-	display:inline-block
+.m > .m-item,
+.masonry > .masonry-item {
+  width: 100%;
+  max-width: none;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: $gap;
 }
-@media only screen and (min-width: 48em){
-	.masonry{
-		column-count:1
-	}
+
+// Tiny Masonry
+.m-tiny,
+.masonry-tiny {
+  column-count: 1;
 }
-@media only screen and (min-width: 56em){
-	.masonry{
-		column-count:2
-	}
+.m-tiny-1,
+.masonry-tiny-1 {
+  column-count: 1;
 }
-@media only screen and (min-width: 64em){
-	.masonry{
-		column-count:3
-	}
+.m-tiny-2,
+.masonry-tiny-2 {
+  column-count: 2;
 }
-@media only screen and (min-width: 75em){
-	.masonry{
-		column-count:4
-	}
+.m-tiny-3,
+.masonry-tiny-3 {
+  column-count: 3;
+}
+.m-tiny-4,
+.masonry-tiny-4 {
+  column-count: 2;
+}
+.m-tiny-5,
+.masonry-tiny-5 {
+  column-count: 5;
+}
+.m-tiny-6,
+.masonry-tiny-6 {
+  column-count: 6;
+}
+.m-tiny-7,
+.masonry-tiny-7 {
+  column-count: 7;
+}
+.m-tiny-8,
+.masonry-tiny-8 {
+  column-count: 8;
+}
+.m-tiny-9,
+.masonry-tiny-9 {
+  column-count: 9;
+}
+.m-tiny-10,
+.masonry-tiny-10 {
+  column-count: 10;
+}
+.m-tiny-11,
+.masonry-tiny-11 {
+  column-count: 11;
+}
+.m-tiny-12,
+.masonry-tiny-12 {
+  column-count: 12;
+}
+
+// Small Masonry
+@media only screen and (min-width: $small-breakpoint) {
+  .m-small,
+  .masonry-small {
+    column-count: 1;
+  }
+  .m-small-1,
+  .masonry-small-1 {
+    column-count: 1;
+  }
+  .m-small-2,
+  .masonry-small-2 {
+    column-count: 2;
+  }
+  .m-small-3,
+  .masonry-small-3 {
+    column-count: 3;
+  }
+  .m-small-4,
+  .masonry-small-4 {
+    column-count: 2;
+  }
+  .m-small-5,
+  .masonry-small-5 {
+    column-count: 5;
+  }
+  .m-small-6,
+  .masonry-small-6 {
+    column-count: 6;
+  }
+  .m-small-7,
+  .masonry-small-7 {
+    column-count: 7;
+  }
+  .m-small-8,
+  .masonry-small-8 {
+    column-count: 8;
+  }
+  .m-small-9,
+  .masonry-small-9 {
+    column-count: 9;
+  }
+  .m-small-10,
+  .masonry-small-10 {
+    column-count: 10;
+  }
+  .m-small-11,
+  .masonry-small-11 {
+    column-count: 11;
+  }
+  .m-small-12,
+  .masonry-small-12 {
+    column-count: 12;
+  }
+}
+
+// Medium Masonry
+@media only screen and (min-width: $medium-breakpoint) {
+  .m-medium,
+  .masonry-medium {
+    column-count: 1;
+  }
+  .m-medium-1,
+  .masonry-medium-1 {
+    column-count: 1;
+  }
+  .m-medium-2,
+  .masonry-medium-2 {
+    column-count: 2;
+  }
+  .m-medium-3,
+  .masonry-medium-3 {
+    column-count: 3;
+  }
+  .m-medium-4,
+  .masonry-medium-4 {
+    column-count: 2;
+  }
+  .m-medium-5,
+  .masonry-medium-5 {
+    column-count: 5;
+  }
+  .m-medium-6,
+  .masonry-medium-6 {
+    column-count: 6;
+  }
+  .m-medium-7,
+  .masonry-medium-7 {
+    column-count: 7;
+  }
+  .m-medium-8,
+  .masonry-medium-8 {
+    column-count: 8;
+  }
+  .m-medium-9,
+  .masonry-medium-9 {
+    column-count: 9;
+  }
+  .m-medium-10,
+  .masonry-medium-10 {
+    column-count: 10;
+  }
+  .m-medium-11,
+  .masonry-medium-11 {
+    column-count: 11;
+  }
+  .m-medium-12,
+  .masonry-medium-12 {
+    column-count: 12;
+  }
+}
+
+// Large Masonry
+@media only screen and (min-width: $large-breakpoint) {
+  .m-large,
+  .masonry-large {
+    column-count: 1;
+  }
+  .m-large-1,
+  .masonry-large-1 {
+    column-count: 1;
+  }
+  .m-large-2,
+  .masonry-large-2 {
+    column-count: 2;
+  }
+  .m-large-3,
+  .masonry-large-3 {
+    column-count: 3;
+  }
+  .m-large-4,
+  .masonry-large-4 {
+    column-count: 4;
+  }
+  .m-large-5,
+  .masonry-large-5 {
+    column-count: 5;
+  }
+  .m-large-6,
+  .masonry-large-6 {
+    column-count: 6;
+  }
+  .m-large-7,
+  .masonry-large-7 {
+    column-count: 7;
+  }
+  .m-large-8,
+  .masonry-large-8 {
+    column-count: 8;
+  }
+  .m-large-9,
+  .masonry-large-9 {
+    column-count: 9;
+  }
+  .m-large-10,
+  .masonry-large-10 {
+    column-count: 10;
+  }
+  .m-large-11,
+  .masonry-large-11 {
+    column-count: 11;
+  }
+  .m-large-12,
+  .masonry-large-12 {
+    column-count: 12;
+  }
+}
+
+// Huge Masonry
+@media only screen and (min-width: $huge-breakpoint) {
+  .m-huge,
+  .masonry-huge {
+    column-count: 1;
+  }
+  .m-huge-1,
+  .masonry-huge-1 {
+    column-count: 1;
+  }
+  .m-huge-2,
+  .masonry-huge-2 {
+    column-count: 2;
+  }
+  .m-huge-3,
+  .masonry-huge-3 {
+    column-count: 3;
+  }
+  .m-huge-4,
+  .masonry-huge-4 {
+    column-count: 2;
+  }
+  .m-huge-5,
+  .masonry-huge-5 {
+    column-count: 5;
+  }
+  .m-huge-6,
+  .masonry-huge-6 {
+    column-count: 6;
+  }
+  .m-huge-7,
+  .masonry-huge-7 {
+    column-count: 7;
+  }
+  .m-huge-8,
+  .masonry-huge-8 {
+    column-count: 8;
+  }
+  .m-huge-9,
+  .masonry-huge-9 {
+    column-count: 9;
+  }
+  .m-huge-10,
+  .masonry-huge-10 {
+    column-count: 10;
+  }
+  .m-huge-11,
+  .masonry-huge-11 {
+    column-count: 11;
+  }
+  .m-huge-12,
+  .masonry-huge-12 {
+    column-count: 12;
+  }
 }

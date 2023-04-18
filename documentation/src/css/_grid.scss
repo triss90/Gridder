@@ -6,10 +6,8 @@
   border-radius: calc($default-space / 2);
   border: 1px dashed var(--c8);
 }
-
 .demo-box,
-.demo-box-nested,
-.demo-box-masonry {
+.demo-box-nested {
   background-color: var(--c2);
   padding: calc($default-space);
   border-radius: calc($default-space / 2);
@@ -24,6 +22,9 @@
   font-size: 100%;
 }
 .demo-box-masonry {
+  padding: calc($default-space);
+  border-radius: calc($default-space / 2);
+  background-color: var(--c2);
   display: flex;
   justify-content: center;
   align-items: center;

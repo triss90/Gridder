@@ -30,7 +30,6 @@
                     <a class="breakpoints" href="#breakpoints">Breakpoints</a>
                     <a class="auto-grid" href="#auto-grid">Auto Grid</a>
                     <a class="nesting" href="#nesting">Nesting</a>
-                    <a class="masonry" href="#masonry">Masonry</a>
                     <h3>Alignment</h3>
                     <a class="offsets" href="#offsets">Offsets</a>
                     <a class="start" href="#start">Start</a>
@@ -46,6 +45,10 @@
                     <a class="reverse" href="#reverse">Reverse</a>
                     <a class="first" href="#first">First</a>
                     <a class="last" href="#last">Last</a>
+                    <h3>Masonry</h3>
+                    <a class="masonry" href="#masonry">Layout</a>
+                    <a class="masonry-shorthand" href="#masonry-shorthand">Shorthand</a>
+                    <a class="masonry-examples" href="#masonry-examples">Examples</a>
                 </nav>
             </div>
 
@@ -323,55 +326,7 @@
                         </section>
                     </div>
                 </div>
-
-                <!-- Masonry -->
-                <div class="row">
-                    <div class="tiny">
-                        <section class="docs-section" id="masonry">
-                            <br><br>
-                            <h2>Masonry</h2>
-                            <p>The flexbox grid is super flexible and can accommodate many different layouts. You can easily use Gridder to create a masonry grid, simply by adding the <span class="tag info">.masonry</span> class to the row element like so:</p>
-                            <pre>
-                                <code class="language-html">&lt;div class=&quot;row masonry&quot;&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;tiny&quot;&gt;Masonry Item&lt;/div&gt;
-                                    &lt;/div&gt;
-                                </code>
-                            </pre>
-                            <div class="row masonry">
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 124px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 172px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 94px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 24px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 74px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 60px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 21px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 114px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 150px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 84px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 116px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 72px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 90px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 24px">Masonry Item</div></div>
-                                <div class="tiny"><div class="demo-box-masonry" style="height: 132px">Masonry Item</div></div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-
+    
                 <!-- Alignment -->
                 <div class="row">
                     <div class="tiny">
@@ -383,7 +338,6 @@
                 <div class="row">
                     <div class="tiny">
                         <section class="docs-section" id="offsets">
-                            <br><br>
                             <h2>Offsets</h2>
                             <p>Offsetting columns is easy! Simply add <span class="tag info">*-offset-3</span> if you wish to offset your column 3 columns from the left. The * in this case refers to one of the breakpoints (tiny, small, medium, large and huge). You can naturally chain these to offset differently on the various breakpoints.</p>
                             <pre>
@@ -549,7 +503,7 @@
                 <div class="row">
                     <div class="tiny">
                         <section class="docs-section" id="between">
-                            <br><br><h2>Between</h2>
+                            <h2>Between</h2>
                             <p>Gridder allows for a few ways to dsitribute space, one of witch is to fill space between columns, leaving no space at the start and end of the row. To to this, simply add <span class="tag info">.*-between</span> (where * represents your <a href="#breakpoints">breakpoint</a>) to your row element.</p>
                             <pre>
                                 <code class="language-html">&lt;div class=&quot;row tiny-between&quot;&gt;
@@ -602,7 +556,7 @@
                 <div class="row">
                     <div class="tiny">
                         <section class="docs-section" id="reverse">
-                            <br><br><h2>Reverse</h2>
+                            <h2>Reverse</h2>
                             <p>To reverse the order of columns in row, simply add the class reverse to the row element.</p>
                             <pre>
                                 <code class="language-html">&lt;div class=&quot;row reverse&quot;&gt;
@@ -676,6 +630,118 @@
                             </div>
                         </section>
                         <p></p>
+                    </div>
+                </div>
+
+
+                <!-- Masonry -->
+                <div class="row">
+                    <div class="tiny">
+                        <br><br><br><hr><br><h1 id="masonryGrid">Masonry</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="tiny">
+                        <section class="docs-section" id="masonry">
+                            <h2>What is it?</h2>
+                            <p>A masonry grid is a type of layout commonly used in web design and graphic design. In a masonry grid, elements such as images or text boxes are arranged in a way that creates a visually appealing and balanced composition, resembling the pattern of bricks in a masonry wall.</p>
+                            <p>Unlike a traditional <a href="#basic">grid layout</a> with evenly spaced rows and columns, a masonry grid allows for more flexibility in the arrangement of elements. Each element is positioned based on its size and the available space, creating a more organic and dynamic layout.</p>
+                            <p>Masonry grids are often used in websites and apps that display a large amount of visual content, such as photography portfolios, online magazines, or e-commerce sites. They are also popular in social media platforms like Pinterest and Instagram, where users can easily browse through a variety of content.</p>
+                            
+                            <h2>How it works?</h2>
+                            <p>
+                                The flexbox grid is super flexible and can accommodate many different layouts. 
+                                You can easily use Gridder to create a masonry grid, 
+                                simply by replacing the regular <span class="tag info">.row</span> element with
+                                the new <span class="tag info">.masonry</span> element like so:
+                            </p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;masonry masonry-tiny-1 masonry-small-2 masonry-medium-3 masonry-large-4 masonry-huge-6&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="masonry-item"&gt;Masonry Item&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <p>Note how you can use  the <span class="tag info">.masonry-X-Y</span>, where <code>X</code> represents the <a href="#breakpoints">breakpoint</a> and <code>Y</code> the number of colums the masonry grid should span.</p>
+                            <div class="masonry masonry-tiny-1 masonry-small-2 masonry-medium-3 masonry-large-4 masonry-huge-6">
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 124px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 172px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 94px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 24px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 74px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 60px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 21px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 114px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 150px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 84px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 116px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 72px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 90px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 24px">Masonry Item</div></div>
+                                <div class="masonry-item"><div class="demo-box-masonry" style="height: 132px">Masonry Item</div></div>
+                            </div>
+
+                            
+                        </section>
+
+                        <section class="docs-section" id="masonry-shorthand">
+                            <br><br>
+                            <h2>Shorthand</h2>
+                            <p><a href="2/changelog/#v220">Release 2.2.0</a> introduced shorthand support for the masonry grid. 
+                            This lets you replace every instance of <span class="tag info">.masonry</span> with <span class="tag info">.m</span>.</p>
+                            <p>
+                                <strong>Here are a few examples:</strong>
+                                <ul>
+                                    <li><span class="tag info">.masonry</span> &#8594 <span class="tag info">.m</span></li>
+                                    <li><span class="tag info">.masonry-item</span> &#8594 <span class="tag info">.m-item</span></li>
+                                    <li><span class="tag info">.masonry-tiny-3</span> &#8594 <span class="tag info">.m-tiny-3</span></li>
+                                    <li><span class="tag info">.masonry-small-7</span> &#8594 <span class="tag info">.m-small-7</span></li>
+                                    <li><span class="tag info">.masonry-medium-11</span> &#8594 <span class="tag info">.m-medium-11</span></li>
+                                    <li><span class="tag info">.masonry-large-5</span> &#8594 <span class="tag info">.m-large-5</span></li>
+                                    <li><span class="tag info">.masonry-huge-8</span> &#8594 <span class="tag info">.m-huge-8</span></li>
+                                </ul>
+                            </p>
+                        </section>
+
+                        <section class="docs-section" id="masonry-examples">
+                            <br><br>
+                            <h2>Examples</h2>
+                            <p><strong>A simple masonry grid:</strong></p>
+                            <pre>
+                                <code class="language-html">&lt;div class=&quot;m m-tiny-1 m-small-2 m-medium-3 m-large-4 m-huge-6&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="m-item"&gt;Masonry Item&lt;/div&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                        </section>
                     </div>
                 </div>
 

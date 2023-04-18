@@ -23,19 +23,20 @@
         <div class="row">
             <div class="tiny">
 
-            <h2>Version 2.2.0 <span class="tag">latest</span></h2>
+            <h2 id="v220">Version 2.2.0 <span class="tag">latest</span></h2>
             <p><span class="tag success">NEW</span> Add masonry grid option.</p>
+            <p><span class="tag info">IMPROVEMENT</span> Add shorthand for masonry classes.</p>
             <p><span class="tag success">NEW</span> Add support for reverse ordering on all breakpoints.</p>
             <p><span class="tag info">IMPROVEMENT</span> Optimize readability of src files for better costumization.</p>
             <p><span class="tag info">IMPROVEMENT</span> Change the default "huge" breakpoint from 125em to 122em.</p>
             <p><span class="tag error">FIX</span> Fix bug where the eleventh column wouldn't take up the correct amount of space on some breakpoints.</p>
             <hr>
 
-            <h2>Version 2.1.0</h2>
+            <h2 id="v210">Version 2.1.0</h2>
             <p><span class="tag success">NEW</span> New huge breakpoint to support wide monitors.</p>
             <hr>
 
-            <h2>Version 2.0.0</h2>
+            <h2 id="v200">Version 2.0.0</h2>
             <p><span class="tag success">NEW</span> New base flexgrid layout containing 4 breakpoints.</p>
 
             </div>
