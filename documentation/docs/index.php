@@ -1,3 +1,3 @@
 <?php
-header("Location: docs/2/");
+header("Location: /documentation/docs/2/");
 die();
