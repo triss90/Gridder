@@ -1,6 +1,8 @@
 # Gridder
 
-A simple flexbox based, responsive boilerplate for mobile-friendly development
+Are you tired of struggling to create complex grid-based layouts for your web pages? Do you want to design beautiful, responsive websites without having to write a single line of code? If so, Gridder.io is the perfect solution for you.
+
+Whether you're building a simple landing page or a complex e-commerce site, Gridder.io has everything you need to bring your vision to life. The framework is based on CSS Flexbox, which means you can create complex grid layouts without any coding knowledge.
 
 Check out [https://gridder.io](https://gridder.io) for documentation and details.
 
