@@ -11,11 +11,13 @@ Check out [https://gridder.io](https://gridder.io) for documentation and details
 **New**
 
 - Add complete new masonry grid option
+- Add support for reverse ordering on all breakpoints.
 
 **Improvements**
 
 - Optimize readability of src for better costumization
 - Change the default "huge" breakpoint from 125em to 122em
+- Add shorthand for masonry classes.
 
 ### v2.1.1
 
