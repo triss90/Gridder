@@ -23,7 +23,10 @@
         <div class="row">
             <div class="tiny">
 
-            <h2 id="v220">Version 2.2.0 <span class="tag">latest</span></h2>
+            <h2 id="v221">Version 2.2.1 <span class="tag">latest</span></h2>
+            <p><span class="tag success">NEW</span> Add demo website to download.</p>
+
+            <h2 id="v220">Version 2.2.0</h2>
             <p><span class="tag success">NEW</span> Add masonry grid option.</p>
             <p><span class="tag info">IMPROVEMENT</span> Add shorthand for masonry classes.</p>
             <p><span class="tag success">NEW</span> Add support for reverse ordering on all breakpoints.</p>

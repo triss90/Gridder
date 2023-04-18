@@ -8,6 +8,12 @@ Check out [https://gridder.io](https://gridder.io) for documentation and details
 
 ## Changelog
 
+### v2.2.1
+
+**New**
+
+- Add demo website to download
+
 ### v2.2.0
 
 **New**

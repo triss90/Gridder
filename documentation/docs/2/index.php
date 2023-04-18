@@ -701,7 +701,7 @@
                         <section class="docs-section" id="masonry-shorthand">
                             <br><br>
                             <h2>Shorthand</h2>
-                            <p><a href="2/changelog/#v220">Release 2.2.0</a> introduced shorthand support for the masonry grid. 
+                            <p><a href="/documentation/docs/2/changelog/#v220">Release 2.2.0</a> introduced shorthand support for the masonry grid. 
                             This lets you replace every instance of <span class="tag info">.masonry</span> with <span class="tag info">.m</span>.</p>
                             <p>
                                 <strong>Here are a few examples:</strong>
