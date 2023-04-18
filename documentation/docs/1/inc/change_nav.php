@@ -4,7 +4,7 @@
 </div>
 
 <nav class="documentation_nav">
-    <a href="/" class="logo">
+    <a href="/documentation/docs/1/" class="logo">
         <svg id="gridder-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 201">
             <circle class="a" cx="25" cy="25" r="25"/>
             <circle class="a" cx="25" cy="25" r="25" transform="translate(150)"/>
@@ -21,9 +21,9 @@
     </a>
 
     <h2 class="title">Changelog</h2>
-    <a href="/changelog/1.5.1" class="link" title="Version 1.5.1">1.5.1</a>
-    <a href="/changelog/1.5.0" class="link" title="Version 1.5.0">1.5.0</a>
-    <a href="/changelog/1.4.2" class="link" title="Version 1.4.1">1.4.2</a>
-    <a href="/changelog/1.4.1" class="link" title="Version 1.4.1">1.4.1</a>
+    <a href="/documentation/docs/1/changelog/1.5.1/index.php" class="link" title="Version 1.5.1">1.5.1</a>
+    <a href="/documentation/docs/1/changelog/1.5.0/index.php" class="link" title="Version 1.5.0">1.5.0</a>
+    <a href="/documentation/docs/1/changelog/1.4.2/index.php" class="link" title="Version 1.4.1">1.4.2</a>
+    <a href="/documentation/docs/1/changelog/1.4.1/index.php" class="link" title="Version 1.4.1">1.4.1</a>
 
 </nav>

@@ -26,10 +26,10 @@
           <span class="text">Gridder</span>
         </a>
         <div class="navigation-items">
-          <a href="docs/installation/">Installation guide</a>
-          <a href="docs/examples">Examples</a>
-          <a href="changelog/">Changes</a>
-          <a href="docs/">Docs</a>
+          <a href="/documentation/docs/1/docs/installation/">Installation guide</a>
+          <a href="/documentation/docs/1/docs/examples">Examples</a>
+          <a href="/documentation/docs/1/changelog/">Changes</a>
+          <a href="/documentation/docs/1/docs/">Docs</a>
         </div>
       </nav>
 

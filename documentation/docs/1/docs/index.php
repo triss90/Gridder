@@ -1,2 +1,2 @@
 <?php
-header('location: /docs/syntax');
+header('location: /documentation/docs/1/docs/syntax/index.php');

@@ -28,9 +28,9 @@
 </footer>
 <!--Content End-->
 
-<script src="assets/js/highlight.pack.js"></script>
+<script src="/documentation/docs/1/assets/js/highlight.pack.js"></script>
 <script src="//cdn.jsdelivr.net/caniuse-embed/1.1.0/caniuse-embed.min.js"></script>
-<script src="assets/js/functions.js"></script>
+<script src="/documentation/docs/1/assets/js/functions.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

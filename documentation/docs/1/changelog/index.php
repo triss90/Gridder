@@ -1,2 +1,2 @@
 <?php
-header('location: /changelog/1.5.1/');
+header('location: /documentation/docs/1/changelog/1.5.1/index.php');
