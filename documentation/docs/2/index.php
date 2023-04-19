@@ -57,7 +57,7 @@
                 <!-- Basic Grid -->
                 <div class="row">
                     <div class="tiny">
-                        <h1 id="basic">Basic Grid</h1>
+                        <h1 id="basic" style="margin-top:0.54em">Basic Grid</h1>
                     </div>
                 </div>
 
